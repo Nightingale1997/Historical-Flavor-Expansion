@@ -1,0 +1,10 @@
+﻿NEU = {
+	color = { 124  140  62 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { south_andean }
+	capital = STATE_LIMA
+}

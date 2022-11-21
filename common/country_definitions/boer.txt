@@ -1,0 +1,81 @@
+﻿BOE = {
+	color = { 224 139 47 }
+	
+	country_type = colonial
+	
+	tier = empire
+    
+	cultures = { british boer voortrekker }
+	capital = STATE_CAPE_COLONY
+}
+
+NAL = {
+	color = { 106  178  46 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { boer voortrekker}
+	is_named_from_capital = yes
+	capital = STATE_NATALIA
+}
+
+TRN = {
+	color = { 140  183  154 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { boer voortrekker }
+	capital = STATE_TRANSVAAL
+	is_named_from_capital = yes
+}
+
+ORA = {
+	color = { 224 139 47 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { boer voortrekker }
+	capital = STATE_VRYSTAAT
+	is_named_from_capital = yes
+}
+
+KLE = {
+	color = { 224 109 47 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { boer voortrekker}
+	capital = STATE_KLEIN_VRYSTAAT
+	is_named_from_capital = yes
+}
+
+ZOU = {
+	color = { 140  183  154 }
+	
+	country_type = colonial
+	
+	tier = principality
+    
+	cultures = { boer voortrekker }
+	capital = STATE_TRANSVAAL
+}
+
+STE = {
+		color = { 147  82  173 }
+	
+	country_type = colonial
+	
+	tier = principality
+    
+	cultures = { boer voortrekker }
+	capital = STATE_TRANSVAAL
+}
+

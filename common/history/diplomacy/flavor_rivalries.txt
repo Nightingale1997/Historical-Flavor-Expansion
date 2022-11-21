@@ -1,0 +1,30 @@
+﻿DIPLOMACY = {
+	c:BOL = {
+		create_diplomatic_pact = {
+			country = c:CHL
+			type = rivalry
+		}
+	}
+	c:BOL = {
+		create_diplomatic_pact = {
+			country = c:ARG
+			type = rivalry
+		}
+	}
+	c:ARG = {
+		create_diplomatic_pact = {
+			country = c:BOL
+			type = rivalry
+		}
+	}
+	c:CHL = {
+		create_diplomatic_pact = {
+			country = c:BOL
+			type = rivalry
+		}
+	}
+}	
+
+
+
+

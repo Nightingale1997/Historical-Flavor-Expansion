@@ -1,0 +1,30 @@
+﻿DIPLOMACY = {
+	c:RUS = {
+		create_diplomatic_pact = {
+			country = c:FIN
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:EST
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:LIV
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:LAT
+			type = puppet
+		}
+	}
+	c:ARG = {
+		create_diplomatic_pact = {
+			country = c:COE
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ENT
+			type = puppet
+		}
+	}
+}

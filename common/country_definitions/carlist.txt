@@ -1,0 +1,13 @@
+﻿CAR = {
+
+color = { 206 15 61 }
+
+tier = principality
+
+country_type = recognized
+
+cultures = { spanish catalan basque }
+
+capital = STATE_CATALONIA
+
+}

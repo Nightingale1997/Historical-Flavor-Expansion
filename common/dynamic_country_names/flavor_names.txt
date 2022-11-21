@@ -1,0 +1,121 @@
+﻿
+ETH = { 
+	dynamic_country_name = {
+		name = dyn_c_ethiopia
+		adjective = dyn_c_ethiopia_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				is_country_type = unrecognized
+			}
+		}
+	}
+}
+
+LAT = {
+	dynamic_country_name = {
+		name = dyn_c_latvia
+		adjective = dyn_c_latvia_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:RUS
+			c:RUS = {
+				has_diplomatic_pact = {
+					who = c:LAT
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+TRH = {
+	dynamic_country_name = {
+		name = dyn_c_turkestan
+		adjective = dyn_c_turkestan_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:RUS
+			c:RUS = {
+				has_diplomatic_pact = {
+					who = c:TRH
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+EST = {
+	dynamic_country_name = {
+		name = dyn_c_estonia
+		adjective = dyn_c_estonia_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:RUS
+			c:RUS = {
+				has_diplomatic_pact = {
+					who = c:EST
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+LIV = {
+	dynamic_country_name = {
+		name = dyn_c_livonia
+		adjective = dyn_c_livonia_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:RUS
+			c:RUS = {
+				has_diplomatic_pact = {
+					who = c:LIV
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+PEU = {
+	dynamic_country_name = {
+		name = dyn_c_north_peru
+		adjective = dyn_c_north_peru_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:BOL
+			c:BOL = {
+				has_diplomatic_pact = {
+					who = c:PEU
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}

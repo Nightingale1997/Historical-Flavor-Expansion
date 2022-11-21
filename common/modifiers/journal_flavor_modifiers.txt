@@ -1,0 +1,24 @@
+﻿control_turkestan = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = 0.05
+}
+
+control_korea = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = 0.05
+}
+
+polish_revolutionaries = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	state_radicals_from_sol_change_mult = 0.25
+	}
+
+boer_republic_founded = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_migration_pull_mult = 100
+	}
+
+japan_iwakura_mission = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_tech_spread_mult = 1
+}
