@@ -5,6 +5,8 @@
 
 Japan Flavor
 
+Russia Flavor
+
 Baltic Governorates
 
 ## In Progress
