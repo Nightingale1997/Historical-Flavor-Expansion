@@ -55,9 +55,9 @@ Spring of Nations Rework
 
 Crimean war
 
+Guarantee mechanic
 
-
-
+Slave trade good. Produced by slave pops in subsistence farming, cannot be imported/exported like electricity. Slave Trade law gives tricke of slaves.
 
 
 
