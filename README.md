@@ -40,6 +40,10 @@ Union of South Africa decisions, similar to british decisions for australia and 
 
 Klein Vrystaat, Stellaland, Xhosa, Swazi, Zoutpansberg
 
+#### New Cultures
+
+Voortrekker
+
 ### Russia
 
 #### Changes from Vanilla:
@@ -47,6 +51,8 @@ Klein Vrystaat, Stellaland, Xhosa, Swazi, Zoutpansberg
 Baltic nations appear as governorates at game start.
 
 Estonia and Latvia now playable at game start.
+
+Circassia and Caucasian Imamate begins with the Caucasian war against russia.
 
 #### New Journal Entries:
 
@@ -70,7 +76,7 @@ Starts with Isolationism. Hermit Kingdom government (Flavor only).
 
 Ethiopia now allows for unification plays.
 
-Age of Princes now requires 3/4 ethiopian states, and triggers a new event.
+Age of Princes now requires 3/4 ethiopian states.
 
 Ethiopia is called "Abyssinia" while unrecognized.
 
@@ -79,6 +85,10 @@ Ethiopia is called "Abyssinia" while unrecognized.
 #### Changes from Vanilla:
 
 Starts with a Carlist revolt.
+
+#### New tags
+
+Carlist Revolt
 
 ### Bolivia/Peru
 
@@ -104,37 +114,59 @@ Entre Ríos, Corrientes
 
 India formation now allows for unification play, but only for recognized nations that are not the British East India Company.
 
+#### New Cultures
+
+Anglo-Indian (Mainly used to involve BIC in the unification play)
+
 ## In Progress
+
+### Russia
+
+### South Africa
 
 Move historical leaders/stuff for oranje and transvaal into their events
 
 Colonial flag/name for basuto, swazi
 
-Ethopia Flavor, major formation, events, Abyssynia when unrecognized, Add reward event to age of princes
+### Ethiopia
 
-Spain Carlists, missing DNA for leaders
+Add reward event to age of princes
 
-Enable more major formations. (Arabia, India, Indonesia, China, Ethiopia)
+### Spain
 
-Argentine confederation, name, flag, provinces, flavor
+Add DNA to leader
+
+Event/Journal for winning the civil war.
+
+### Argentina
+
+Dynamic name, DNA for Entre Rios and Corrientes.
+
+Add journals
+
+### Bolivia/Peru
+
+Add generals to Bolivia (And puppets) so they can hold multiple fronts.
+
+Peru-bolivia united flag
+
+### General
 
 Additional religions, reformed, anglican, mormon
 
 ## Planned Features
 
-Add generals to bolivia (And others?)
+Enable more major formations. (Arabia, Indonesia, China)
 
-Caucasian War, keept adding turmoil until times out or no discrimination
+More Ethiopia Flavor.
 
-Mormons/Deseret Tag
+Caucasian War, keep adding turmoil until times out or no discrimination
+
+Deseret and mormon events
 
 USA Journal for Cuba, Puerto Rico, Philippines
 
-Sikh afghan war
-
-State modifiers. Tariff bonus to bosphorus, malacca, denmark, kiel, panama, suez, cape of good hope? Journal entry for dividends?
-
-Fix peru-bolivia united flag
+More State modifiers.
 
 Impassable terrain
 
@@ -145,6 +177,8 @@ Sokoto flavor
 USA slaves to liberia, ethnostate?
 
 Soviet revolt
+
+Tariff bonus to bosphorus, malacca, denmark, kiel, panama, suez, cape of good hope? Journal entry for dividends?
 
 Paris commune
 
