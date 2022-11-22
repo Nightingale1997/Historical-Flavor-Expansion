@@ -4,13 +4,105 @@ Victoria 3 Mod
 
 ## Completed Features
 
-Japan Flavor (Conquer Korea, Hokkaido colonisation, Iwakura Mission)
+### Japan
 
-South Africa Flavor (Autonomy, Native nations, Boer Republics, Add decision for to unite south african colonies)
+#### Changes from Vanilla:
 
-Russia Flavor (Baltic Governorates, January Uprising, Turkestan)
+Ainu starts unrecognized to prevent foreign colonization
 
-Korea isolationism. Hermit Kingdom government
+Ending Sakoku triggers the Iwakura Mission event
+
+#### New Journal Entries:
+
+Line of Advantage (Conquer Korea)
+
+Hokkaido Development Comission (Colonize Hokkaido)
+
+### South Africa
+
+#### Changes from Vanilla:
+
+Boer republics do not exist at game start, and spawn in randomly over time, weighted according to historical foundation date.
+
+All Boer republics are playable through event for Cape Colony, and Transvaal is playable through an event for Zoutpansberg (New Tag).
+
+#### New Journal Entries:
+
+Responsible Government (Become a Dominon)
+
+Union of South Africa (Unite the region)
+
+#### New Decisions:
+
+Union of South Africa decisions, similar to british decisions for australia and canada.
+
+#### New tags
+
+Klein Vrystaat, Stellaland, Xhosa, Swazi, Zoutpansberg
+
+### Russia
+
+#### Changes from Vanilla:
+
+Baltic nations appear as governorates at game start.
+
+Estonia and Latvia now playable at game start.
+
+#### New Journal Entries:
+
+January Uprising (Historical Polish revolt)
+
+The Great Game (Approach india, form Russian Turkestan)
+
+#### New tags
+
+Livonia
+
+### Korea
+
+#### Changes from Vanilla:
+
+Starts with Isolationism. Hermit Kingdom government (Flavor only).
+
+### Ethiopia
+
+#### Changes from Vanilla:
+
+Ethiopia now allows for unification plays.
+
+Age of Princes now requires 3/4 ethiopian states, and triggers a new event.
+
+Ethiopia is called "Abyssinia" while unrecognized.
+
+### Spain
+
+#### Changes from Vanilla:
+
+Starts with a Carlist revolt.
+
+### Bolivia/Peru
+
+#### Changes from Vanilla:
+
+Peru is split into North Peru and South Peru upon puppeting.
+
+Creating the union triggers the War of the Confederation, where North peru will revolt and likely bring in Chile and/or Argentina.
+
+### Argentina
+
+#### Changes from Vanilla:
+
+Starts as the Argentine Confederation (New name, flag)
+
+#### New tags
+
+Entre Ríos, Corrientes
+
+### India
+
+#### Changes from Vanilla:
+
+India formation now allows for unification play, but only for recognized nations that are not the British East India Company.
 
 ## In Progress
 
