@@ -22,3 +22,14 @@ XHO = { # Xhosa
 	cultures = { xhosa }
 	capital = STATE_EASTERN_CAPE
 }
+
+BST = {
+	color = { 137 106 217 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { sotho }
+	capital = STATE_BASUTO
+}

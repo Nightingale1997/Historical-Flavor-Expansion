@@ -8,11 +8,11 @@
 			text = boer_republics_formed
 			hidden_trigger = {
 					        AND = {
-					exists = c:TRN	
-                    exists = c:ORA
-                    exists = c:NAL
-					exists = c:KLE
-					exists = c:STE
+					has_global_variable = trek_trn
+					has_global_variable = trek_ora
+					has_global_variable = trek_nal
+					has_global_variable = trek_kle
+					has_global_variable = trek_ste
                     }
 			}
 		}	
@@ -23,10 +23,6 @@
 			has_law = law_type:law_slave_trade
 			has_law = law_type:law_legacy_slavery
 		}
-	}
-
-    on_complete = {
-		trigger_event = { id = journal_flavor_russia.1 } # Towards India
 	}
 
 	status_desc = {
@@ -41,17 +37,22 @@
 }
 
 je_autonomy = {
-	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 
 
     	complete = {	
-GDP >= 1000000
+			NOT = {has_law = law_type:law_autocracy}
+			GDP >= 1000000
 	}
 
 	fail = {
 		c:SAF = {
-			NOT = { is_subject_of = c:GBR }
+			OR = {
+				NOT = { is_subject_of = c:GBR }
+				is_subject_type = subject_type_dominion
+			}
+
 		}
 	}
 
@@ -85,7 +86,7 @@ GDP >= 1000000
 	status_desc = {
 		first_valid = {
 			triggered_desc = {
-				desc = je_great_trek_status
+				desc = je_autonomy_status
 			}
 		}
 	}
@@ -98,7 +99,7 @@ je_natalia_republic = {
 
 on_monthly_pulse = {
 	random_events = {
-				4 = journal_flavor_south_africa.1
+				36 = 0
 				1 = journal_flavor_south_africa.1
 			}	
 }
@@ -110,7 +111,7 @@ on_monthly_pulse = {
   		custom_tooltip = {
 			text = nal_exists
 			hidden_trigger = {
-					exists = c:NAL
+					has_global_variable = trek_nal
 			}
 		}	
 	}
@@ -135,6 +136,10 @@ on_monthly_pulse = {
 		}
 	}
 
+			on_fail = {
+			set_global_variable = trek_nal
+		}
+
 	weight = 100
 }
 
@@ -143,7 +148,7 @@ je_transvaal = {
 
 on_monthly_pulse = {
 	random_events = {
-				4 = journal_flavor_south_africa.4
+				108 = 0
 				1 = journal_flavor_south_africa.4
 			}	
 }
@@ -180,6 +185,10 @@ on_monthly_pulse = {
 		}
 	}
 
+			on_fail = {
+			set_global_variable = trek_trn
+		}
+
 	weight = 100
 }
 
@@ -188,7 +197,7 @@ je_orange_free_state = {
 
 on_monthly_pulse = {
 	random_events = {
-				4 = journal_flavor_south_africa.3
+				108 = 0
 				1 = journal_flavor_south_africa.3
 			}	
 }
@@ -204,10 +213,6 @@ custom_tooltip = {
 					exists = c:ORA
 			}
 		}	
-
-
-  		
-
 
 	
 	}
@@ -232,6 +237,10 @@ custom_tooltip = {
 		}
 	}
 
+		on_fail = {
+			set_global_variable = trek_ora
+		}
+
 	weight = 100
 }
 
@@ -240,7 +249,7 @@ je_klein_vrystaat = {
 
 on_monthly_pulse = {
 	random_events = {
-				4 = journal_flavor_south_africa.5
+				228 = 0
 				1 = journal_flavor_south_africa.5
 			}	
 }
@@ -250,7 +259,7 @@ on_monthly_pulse = {
 
 	complete = {	
   		custom_tooltip = {
-			text = ora_exists
+			text = kle_exists
 			hidden_trigger = {
 					exists = c:KLE
 			}
@@ -277,6 +286,10 @@ on_monthly_pulse = {
 		}
 	}
 
+		on_fail = {
+			set_global_variable = trek_kle
+		}
+
 	weight = 100
 }
 
@@ -285,7 +298,7 @@ je_stellaland = {
 
 on_monthly_pulse = {
 	random_events = {
-				4 = journal_flavor_south_africa.6
+				228 = 0
 				1 = journal_flavor_south_africa.6
 			}	
 }
@@ -295,7 +308,7 @@ on_monthly_pulse = {
 
 	complete = {	
   		custom_tooltip = {
-			text = ora_exists
+			text = ste_exists
 			hidden_trigger = {
 					exists = c:STE
 			}
@@ -321,6 +334,10 @@ on_monthly_pulse = {
 			}
 		}
 	}
+
+		on_fail = {
+			set_global_variable = trek_ste
+		}
 
 	weight = 100
 }

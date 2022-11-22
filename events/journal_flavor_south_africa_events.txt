@@ -29,6 +29,12 @@ journal_flavor_south_africa.1 = {
 	}
 	immediate = {
 
+		s:STATE_NATALIA = {
+			add_claim = c:SAF
+		}
+
+		set_global_variable = trek_nal
+
 		c:ZUL = {
 			trigger_event = { id = journal_flavor_south_africa.2 }
 		}
@@ -294,7 +300,14 @@ journal_flavor_south_africa.3 = {
 		
 	}
 	immediate = {
-				c:BST = {
+
+		s:STATE_VRYSTAAT = {
+			add_claim = c:SAF
+		}
+
+		set_global_variable = trek_ora
+
+		c:BST = {
 			save_scope_as = bst_scope
 		}
 
@@ -504,6 +517,12 @@ journal_flavor_south_africa.4 = {
 		
 	}
 	immediate = {
+
+		s:STATE_TRANSVAAL = {
+			add_claim = c:SAF
+		}
+
+		set_global_variable = trek_trn
 
 		c:ZOU = {
 			save_scope_as = zou_scope
@@ -787,10 +806,11 @@ journal_flavor_south_africa.8 = {
 		name = journal_flavor_south_africa.7.a
 		default_option = yes
 		ai_chance = { base = 1 }
-		play_as = c:TRN
-     	c:TRN = {
-            annex = c:ZOU
+		
+     	c:ZOU = {
+            annex = c:TRN
         }
+		change_tag = TRN
 
 	}
     	option = {
@@ -837,6 +857,12 @@ journal_flavor_south_africa.5 = {
 		
 	}
 	immediate = {
+
+		s:STATE_KLEIN_VRYSTAAT = {
+			add_claim = c:SAF
+		}
+
+		set_global_variable = trek_kle
 
 		c:ZUL = {
 			save_scope_as = zul_scope
@@ -1061,6 +1087,12 @@ journal_flavor_south_africa.6 = {
 	}
 	immediate = {
 
+		s:STATE_STELLALAND = {
+			add_claim = c:SAF
+		}
+
+		set_global_variable = trek_ste
+
 		c:TSW = {
 			save_scope_as = tsw_scope
 		}
@@ -1248,3 +1280,4 @@ journal_flavor_south_africa.6 = {
 		play_as = scope:ste_scope
 	}
 }
+
