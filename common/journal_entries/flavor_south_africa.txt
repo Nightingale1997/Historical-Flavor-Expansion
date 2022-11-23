@@ -19,7 +19,7 @@
 	}
 
 	fail = {
-		has_law = law_type:law_state_church
+		has_law = law_type:law_state_religion
 		OR = {
 			has_law = law_type:law_slave_trade
 			has_law = law_type:law_legacy_slavery
@@ -119,8 +119,15 @@ on_monthly_pulse = {
 
 	fail = {
 		OR = {
-			has_law = law_type:law_slave_trade
-			has_law = law_type:law_legacy_slavery
+			AND = {
+				has_law = law_type:law_state_religion
+				OR = {
+					has_law = law_type:law_slave_trade
+					has_law = law_type:law_legacy_slavery
+				}
+			}
+		
+		
 	
 			any_state = {
 				state_region = s:STATE_NATALIA
@@ -168,8 +175,13 @@ on_monthly_pulse = {
 
 	fail = {
 		OR = {
-			has_law = law_type:law_slave_trade
-			has_law = law_type:law_legacy_slavery
+			AND = {
+				has_law = law_type:law_state_religion
+				OR = {
+					has_law = law_type:law_slave_trade
+					has_law = law_type:law_legacy_slavery
+				}
+			}
 	
 			any_state = {
 				state_region = s:STATE_TRANSVAAL
@@ -220,8 +232,13 @@ custom_tooltip = {
 
 	fail = {
 		OR = {
-			has_law = law_type:law_slave_trade
-			has_law = law_type:law_legacy_slavery
+			AND = {
+				has_law = law_type:law_state_religion
+				OR = {
+					has_law = law_type:law_slave_trade
+					has_law = law_type:law_legacy_slavery
+				}
+			}
 	
 			any_state = {
 				state_region = s:STATE_VRYSTAAT
@@ -269,8 +286,13 @@ on_monthly_pulse = {
 
 	fail = {
 		OR = {
-			has_law = law_type:law_slave_trade
-			has_law = law_type:law_legacy_slavery
+			AND = {
+				has_law = law_type:law_state_religion
+				OR = {
+					has_law = law_type:law_slave_trade
+					has_law = law_type:law_legacy_slavery
+				}
+			}
 	
 			any_state = {
 				state_region = s:STATE_KLEIN_VRYSTAAT
@@ -318,8 +340,13 @@ on_monthly_pulse = {
 
 	fail = {
 		OR = {
-			has_law = law_type:law_slave_trade
-			has_law = law_type:law_legacy_slavery
+			AND = {
+				has_law = law_type:law_state_religion
+				OR = {
+					has_law = law_type:law_slave_trade
+					has_law = law_type:law_legacy_slavery
+				}
+			}
 	
 			any_state = {
 				state_region = s:STATE_STELLALAND
