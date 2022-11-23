@@ -1,6 +1,6 @@
 ﻿voortrekker = {
 	color= hsv{ 0.10 0.80 0.86 }
-	religion = protestant
+	religion = reformed
 	traits = { beneluxian_culture_group african_settler european_heritage }
 	male_common_first_names={
 		Abraham
@@ -122,7 +122,7 @@
 
 anglo_indian={ 
 	color= rgb{ 210 156 140 }
-	religion = protestant
+	religion = anglican
 	traits = { anglophone european_heritage }
 	
 	obsessions = {

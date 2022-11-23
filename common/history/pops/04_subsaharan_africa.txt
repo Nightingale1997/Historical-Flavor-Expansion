@@ -918,6 +918,7 @@
 			}
 			create_pop = {
 				culture = bedouin
+				religion = ibadi
 				size = 4004
 			}
 			create_pop = {

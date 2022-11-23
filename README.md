@@ -152,9 +152,21 @@ Peru-bolivia united flag
 
 ### General
 
-Additional religions, reformed, anglican, mormon
+#### New Religions
+
+Reformed (Calvinist), cultures affected: Dutch, Boer, Swiss, Yankee, Dixie, Scottish
+
+Anglican, cultures affected: English, Australian, Anglo-Canadian, Anglo-Indian (New).
 
 ## Planned Features
+
+Mormonism, Deseret and mormon events
+
+God Worshipping Society, affects heavenly kingdom event chain.
+
+Baháʼí faith events for Persia
+
+Better Religion Assets
 
 Enable more major formations. (Arabia, Indonesia, China)
 
@@ -162,13 +174,13 @@ More Ethiopia Flavor.
 
 Caucasian War, keep adding turmoil until times out or no discrimination
 
-Deseret and mormon events
-
 USA Journal for Cuba, Puerto Rico, Philippines
 
 More State modifiers.
 
 Impassable terrain
+
+Event to give American cultures fruit obsession leading into banana republics
 
 ## Potential Features
 

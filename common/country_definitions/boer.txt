@@ -5,7 +5,7 @@
 	
 	tier = empire
     
-	cultures = { british boer voortrekker }
+	cultures = { boer voortrekker british }
 	capital = STATE_CAPE_COLONY
 }
 
@@ -79,3 +79,13 @@ STE = {
 	capital = STATE_TRANSVAAL
 }
 
+SAF = {
+	color = { 180  158  127 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { boer british }
+	capital = STATE_CAPE_COLONY
+}

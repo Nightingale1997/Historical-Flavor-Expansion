@@ -204,6 +204,11 @@ caucasian_war: "Caucasian War"
     dyn_c_south_peru: "Peru"
     dyn_c_south_peru_adj: "Peruvian"
     
+    reformed: "Reformed"
+    mormon: "Mormon"
+    anglican: "Anglican"
+    ibadi: "Ibadi"
+
     not_bic: "Not playing as the British East India Company"
 
     india_unification_criteria: "British East India Company does not exist"
