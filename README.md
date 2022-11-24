@@ -118,9 +118,21 @@ India formation now allows for unification play, but only for recognized nations
 
 Anglo-Indian (Mainly used to involve BIC in the unification play)
 
+### General
+
+#### New Religions
+
+Reformed (Calvinist), cultures affected: Dutch, Boer, Swiss, Yankee, Dixie, Scottish
+
+Anglican, cultures affected: English, Australian, Anglo-Canadian, Anglo-Indian (New).
+
+Taiping Christianity, affects Heavenly Kingdom event chain and tag.
+
 ## In Progress
 
 ### Russia
+
+Caucasian Revolt
 
 ### South Africa
 
@@ -150,23 +162,13 @@ Add generals to Bolivia (And puppets) so they can hold multiple fronts.
 
 Peru-bolivia united flag
 
-### General
-
-#### New Religions
-
-Reformed (Calvinist), cultures affected: Dutch, Boer, Swiss, Yankee, Dixie, Scottish
-
-Anglican, cultures affected: English, Australian, Anglo-Canadian, Anglo-Indian (New).
-
 ## Planned Features
 
 Mormonism, Deseret and mormon events
 
-God Worshipping Society, affects heavenly kingdom event chain.
-
 Baháʼí faith events for Persia
 
-Better Religion Assets
+Better Reformed Icon
 
 Enable more major formations. (Arabia, Indonesia, China)
 

@@ -1,0 +1,51 @@
+﻿namespace = journal_flavor_usa
+
+# Peru Partition
+journal_flavor_usa.1 = {
+	type = country_event
+	placement = ROOT
+	title = journal_flavor_usa.1.t
+	desc = journal_flavor_usa.1.d
+	flavor =  journal_flavor_usa.f
+
+	duration = 1
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_aristocrats.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/aristocrats"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+
+	}
+
+	immediate = {
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_UTAH
+			}
+			save_scope_as = des_spawn
+		}
+			
+	}
+
+	option = {
+		default_option = yes
+		name = journal_flavor_usa.1.a
+
+	}
+	option = {
+		name = journal_flavor_usa.1.b
+
+		create_country = {
+			tag = DES
+			origin = this
+			state = scope:des_spawn
+		}
+
+	}
+}

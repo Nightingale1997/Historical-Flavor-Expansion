@@ -1,0 +1,11 @@
+DES = {
+	color = { 125  92  110 }
+	
+	country_type = colonial
+	
+	tier = principality
+	religion = mormon
+	cultures = { yankee dixie }
+	capital = STATE_UTAH
+}
+

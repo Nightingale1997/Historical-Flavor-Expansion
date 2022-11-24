@@ -43,6 +43,11 @@
   je_ainu_frontier_reason: "The development of Japan's large northern island was seen as a means to defend Japan from a rapidly developing and expansionist Russia. Development also promised to yield the needed natural resources for a growing capitalist economy."
   je_ainu_frontier_status: "Colonize the island of Hokkaido."
   
+  je_deseret: "The State of Deseret"
+  je_deserete_reason: "Test"
+  je_deseret_status: "Mormon pioneers are looking for a new home."
+
+
   journal_flavor_japan.1.t: "The Iwakura Mission"
   journal_flavor_japan.1.d: "With the policy of Sakoku coming to and end, scholars and officials prepare a voyage to bring back knowledge from abroad."
   journal_flavor_japan.1.f: "The Iwakura Mission or Iwakura Embassy was a Japanese diplomatic voyage to the United States and Europe by leading statesmen and scholars. The aim of the mission was threefold; to gain recognition for the japanese government under [ROOT.GetCountry.GetRuler.GetFullName]; to begin preliminary renegotiation of the unequal treaties with the dominant world powers; and to make a comprehensive study of modern industrial, political, military and educational systems and structures in the United States and Europe."
@@ -133,6 +138,13 @@
   journal_flavor_south_africa.7.a: "We are stronger united."
   journal_flavor_south_africa.7.b: "We will make our own future!"
 
+  journal_flavor_usa.1.t: "The State of Deseret"
+  journal_flavor_usa.1.d: "Voortrekkers have ventured beyond the Vaal river to form the Transvaal Republic."
+  journal_flavor_usa.1.f: "Early settlers founded a community around the town of [SCOPE.sCountry('zou_scope').GetNameNoFlag] in lands that have traditionally been inhabited by the [SCOPE.sCountry('mtb_scope').GetNameNoFlag]. This community has grown to encompass most of the land beyond the Vaal river, and has now declared itself to be the sovereign Transvaal Republic. Should we join this new republic?"
+  journal_flavor_usa.1.a: "We are stronger united."
+  journal_flavor_usa.1.b: "We will make our own future!"
+
+
   control_turkestan: "Russian Turkestan"
   control_korea: "The Line of Advantage"
   polish_revolutionaries: "Polish-Lithuanian Revolutionaries"
@@ -204,10 +216,12 @@ caucasian_war: "Caucasian War"
     dyn_c_south_peru: "Peru"
     dyn_c_south_peru_adj: "Peruvian"
     
+    god_society: "Taiping Christian"
     reformed: "Reformed"
     mormon: "Mormon"
     anglican: "Anglican"
     ibadi: "Ibadi"
+
 
     not_bic: "Not playing as the British East India Company"
 

@@ -1,0 +1,8 @@
+﻿TPG = {
+	color = { 100 150 20 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { han }
+	religion = god_society
+	capital = STATE_NANJING
+}

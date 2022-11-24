@@ -11014,7 +11014,7 @@ polynesian={
 
 hawaiian={ # 
 	color= hsv{ 0.29 0.26 0.60 }
-	religion = protestant
+	religion = reformed
 	traits = { polynesian_group indigenous_oceanic_heritage }
 	male_noble_first_names = {
 		Alapa_imaloiki _Aikanaka
@@ -12385,7 +12385,7 @@ dakota={
 
 cherokee={
 	color= rgb{ 105 145 40 }
-	religion = protestant
+	religion = reformed
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
 		Andrew
@@ -12450,7 +12450,7 @@ cherokee={
 
 muskogean={ # Creek and Seminole
 	color= hsv{ 0.27 0.2 0.67 }
-	religion = protestant
+	religion = reformed
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
 		Alexander
@@ -14834,7 +14834,7 @@ brazilian={
 
 afro_american={
 	color= hsv{ 0.10 0.10 0.24 }
-	religion = protestant
+	religion = reformed
 	traits = { anglophone african_heritage }
 	male_common_first_names={
 		Albert Abraham Alexander Anthony Adam
@@ -14912,7 +14912,7 @@ afro_american={
 
 afro_caribbean={
 	color= hsv{ 0.32 0.27 0.32 }
-	religion = protestant
+	religion = anglican
 	traits = { african_heritage anglophone }
 	male_common_first_names={
 		Anderson
