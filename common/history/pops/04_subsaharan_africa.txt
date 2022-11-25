@@ -1475,27 +1475,71 @@
 			}
 		}
 	}
-	s:STATE_SOUTH_MADAGASCAR = {
+		s:STATE_SOUTH_MADAGASCAR = {
 		region_state:MAD = {
 			create_pop = {
 				culture = malagasy
-				size = 805196
+				size = 613196
 			}
 			create_pop = {
 				culture = malagasy
 				religion = sunni
-				size = 72604
+				size = 52604
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = malagasy
-				size = 15000
+				size = 9000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = malagasy
 				religion = sunni
-				size = 5000
+				size = 4000
+			}
+		}
+		region_state:ONI = {
+			create_pop = {
+				culture = malagasy
+				size = 102196
+			}
+			create_pop = {
+				culture = malagasy
+				religion = sunni
+				size = 12604
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malagasy
+				size = 3000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malagasy
+				religion = sunni
+				size = 500
+			}
+		}
+		region_state:ZAF = {
+			create_pop = {
+				culture = malagasy
+				size = 91296
+			}
+			create_pop = {
+				culture = malagasy
+				religion = sunni
+				size = 12604
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malagasy
+				size = 3000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malagasy
+				religion = sunni
+				size = 1000
 			}
 		}
 	}
@@ -1503,27 +1547,53 @@
 		region_state:MAD = {
 			create_pop = {
 				culture = malagasy
-				size = 900304
+				size = 700304
 			}
 			create_pop = {
 				culture = malagasy
 				religion = catholic
-				size = 5000
+				size = 3000
 			}
 			create_pop = {
 				culture = malagasy
 				religion = sunni
-				size = 97800
+				size = 90800
 			}
 			create_pop = {
 				culture = malagasy
 				religion = protestant
-				size = 12000
+				size = 10000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = malagasy
-				size = 30000
+				size = 25000
+			}
+		}
+		region_state:BAA = {
+			create_pop = {
+				culture = malagasy
+				size = 203304
+			}
+			create_pop = {
+				culture = malagasy
+				religion = catholic
+				size = 2000
+			}
+			create_pop = {
+				culture = malagasy
+				religion = sunni
+				size = 7000
+			}
+			create_pop = {
+				culture = malagasy
+				religion = protestant
+				size = 2000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malagasy
+				size = 5000
 			}
 		}
 	}
@@ -1710,11 +1780,11 @@
 		region_state:POR = {
 			create_pop = {
 				culture = makua
-				size = 420000
+				size = 20000
 			}
 			create_pop = {
 				culture = swahili
-				size = 19996
+				size = 19000
 			}
 			create_pop = {
 				culture = portuguese
@@ -1722,16 +1792,43 @@
 			}
 			create_pop = {
 				culture = sena
-				size = 96004
+				size = 66004
 			}
 			create_pop = {
 				culture = makua
 				religion = sunni
-				size = 55996
+				size = 50000
 			}
 			create_pop = {
 				culture = lacustrine_bantu
-				size = 103996
+				size = 3996
+			}
+			create_pop = {
+				culture = lomwe
+				size = 3000
+			}
+		}
+		region_state:MRV = {
+			create_pop = {
+				culture = makua
+				size = 400000
+			}
+			create_pop = {
+				culture = swahili
+				size = 996
+			}
+			create_pop = {
+				culture = sena
+				size = 36004
+			}
+			create_pop = {
+				culture = makua
+				religion = sunni
+				size = 5996
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				size = 100000
 			}
 			create_pop = {
 				culture = yao
@@ -1743,7 +1840,7 @@
 			}
 			create_pop = {
 				culture = lomwe
-				size = 60000
+				size = 57000
 			}
 		}
 	}
@@ -2449,7 +2546,7 @@
 		}
 	}
 	s:STATE_ZAMBEZI = {
-		region_state:MTB = {
+		region_state:RZW = {
 			create_pop = {
 				culture = shona
 				size = 120000
@@ -2779,32 +2876,40 @@
 			}
 			create_pop = {
 				culture = boer
-				size = 25000
+				size = 30000
 			}
 			create_pop = {
 				culture = khoisan
 				size = 12000
 			}
+			create_pop = {
+				culture = griqua
+				size = 28000
+			}
 		}
 		region_state:TSW = {
 			create_pop = {
 				culture = tswana
-				size = 100004
+				size = 120004
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = tswana
-				size = 10000
+				size = 12000
 			}
 		}
 		region_state:WBL = {
 			create_pop = {
 				culture = khoisan
-				size = 20000
+				size = 10000
 			}
 			create_pop = {
 				culture = tswana
 				size = 38000
+			}
+			create_pop = {
+				culture = griqua
+				size = 22000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -2854,18 +2959,32 @@
 		}
 	}
 	s:STATE_LOURENCO_MARQUES = {
-		region_state:POR = {
+		region_state:GZA = {
 			create_pop = {
 				culture = nguni
-				size = 333804
+				size = 330004
 			}
 			create_pop = {
 				culture = shona
-				size = 260000
+				size = 230000
 			}
 			create_pop = {
 				culture = tonga
-				size = 380000
+				size = 300000
+			}
+		}
+		region_state:POR = {
+			create_pop = {
+				culture = nguni
+				size = 3800
+			}
+			create_pop = {
+				culture = shona
+				size = 30000
+			}
+			create_pop = {
+				culture = tonga
+				size = 80000
 			}
 		}
 	}

@@ -2,6 +2,8 @@
 
 Victoria 3 Mod
 
+Thanks to calvinsoul for allowing us to use Norton's Flavor Mod as part of this mod.
+
 ## Completed Features
 
 ### Japan
@@ -201,3 +203,5 @@ Spring of Nations Rework
 Crimean war
 
 Guarantee mechanic
+
+Rhodesia/British South Africa Company
