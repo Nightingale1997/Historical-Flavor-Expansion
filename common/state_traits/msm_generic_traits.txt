@@ -1,0 +1,438 @@
+﻿### any
+
+state_trait_taiga = {
+	icon = "gfx/interface/icons/state_trait_icons/taiga.dds"
+	
+	modifier = {
+		state_construction_mult = -0.05
+		state_infrastructure_mult = -0.10
+	}
+}
+
+state_trait_arctic = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_construction_mult = -0.20
+		state_infrastructure_mult = -0.20
+		building_group_bg_agriculture_throughput_mult = -0.20
+	}
+}
+
+state_trait_chernozem = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = 0.05
+	}
+}
+
+state_trait_black_soil_nsa = {
+	icon = "gfx/interface/icons/state_trait_icons/cotton.dds"
+	
+	modifier = {
+		building_cotton_plantation_throughput_mult = 0.1
+	}
+}
+
+state_trait_hills = {
+	icon = "gfx/interface/icons/state_trait_icons/hills.dds"
+	
+	modifier = {
+		state_construction_mult = -0.05
+		state_infrastructure_mult = -0.05
+	}
+}
+
+
+### Asia 
+
+#japan 
+
+state_trait_traditional_whaling = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_whales.dds"
+	
+	modifier = {
+		building_group_bg_whaling_throughput_mult = 0.1
+	}
+}
+
+state_trait_satsuma_ware = {
+	icon = "gfx/interface/icons/state_trait_icons/satsuma.dds"
+	
+	modifier = {
+		building_glassworks_throughput_mult = 0.1
+	}
+}
+
+state_trait_miike_coalfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_coal_mine_throughput_mult = 0.2
+	}
+}
+
+state_trait_hokutan_coalfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_coal_mine_throughput_mult = 0.1
+	}
+}
+
+state_trait_edo_rice = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		building_rice_farm_throughput_mult = 0.1
+	}
+}
+
+
+
+#korea
+
+state_trait_jiktong_coalfield = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_coal_mine_throughput_mult = 0.1
+	}
+}
+
+state_trait_komdok_leadmine = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_lead_mine_throughput_mult = 0.1
+	}
+}
+
+state_trait_oryong_ironmine = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_iron_mine_throughput_mult = 0.1
+	}
+}
+
+state_trait_jangsaengpo = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_whales.dds"
+	
+	modifier = {
+		building_group_bg_whaling_throughput_mult = 0.1
+	}
+}
+
+#china
+
+state_trait_manchurian_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		building_group_bg_logging_throughput_mult = 0.1
+	}
+}
+
+state_trait_fushun_coal = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_coal_mine_throughput_mult = 0.1
+	}
+}
+
+state_trait_takushan_iron = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_iron_mine_throughput_mult = 0.1
+	}
+}
+
+#austrialia
+
+state_trait_bowen = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_coal_mine_throughput_mult = 0.1
+	}
+}
+
+state_trait_murray_darling = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+        building_group_bg_agriculture_throughput_mult = 0.1
+	}
+}
+
+state_trait_bay_of_plenty_one = {
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+	
+	modifier = {
+        building_group_bg_agriculture_throughput_mult = 0.05
+		building_group_bg_fishing_throughput_mult = 0.1
+		building_group_bg_whaling_throughput_mult = 0.1
+	}
+}
+
+#Europe
+
+#denmark 
+
+state_trait_danish_pig = {
+	icon = "gfx/interface/icons/state_trait_icons/pigs.dds"
+	
+	modifier = {
+		building_group_bg_ranching_throughput_mult = 0.1
+	}
+}
+
+#spain
+
+state_trait_camocha = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_coal_mine_throughput_mult = 0.1
+	}
+}
+
+state_trait_cercs = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_coal_mine_throughput_mult = 0.1
+	}
+}
+
+state_trait_bonastre = {
+	icon = "gfx/interface/icons/state_trait_icons/wineyard.dds"
+	
+	modifier = {
+		building_wheat_farm_throughput_mult = 0.1
+	}
+}
+
+state_trait_guadalquivir_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 5
+        building_group_bg_agriculture_throughput_mult = 0.1
+	}
+}
+
+#poland
+
+state_trait_apples = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+        building_rye_farm_throughput_mult = 0.1
+	}
+}
+
+
+#austria start
+
+state_trait_most_basin = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_coal_mine_throughput_mult = 0.1
+	}
+}
+
+state_trait_moravskeho = {
+	icon = "gfx/interface/icons/state_trait_icons/textile_factory.dds"
+	
+	modifier = {
+		building_textile_mills_throughput_mult = 0.1
+	}
+}
+
+state_trait_great_alfold = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+        building_group_bg_agriculture_throughput_mult = 0.1
+	}
+}
+
+state_trait_delvidek = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+        building_group_bg_agriculture_throughput_mult = 0.1
+	}
+}
+
+#italy 
+
+state_trait_frescobaldi = {
+	icon = "gfx/interface/icons/state_trait_icons/wineyard.dds"
+	
+	modifier = {
+		building_wheat_farm_throughput_mult = 0.05
+	}
+}
+
+#france
+
+state_trait_goulaine = {
+	icon = "gfx/interface/icons/state_trait_icons/wineyard.dds"
+	
+	modifier = {
+		building_wheat_farm_throughput_mult = 0.05
+	}
+}
+
+state_trait_vin_de_bordeaux = {
+	icon = "gfx/interface/icons/state_trait_icons/wineyard.dds"
+	
+	modifier = {
+		building_wheat_farm_throughput_mult = 0.05
+	}
+}
+
+#germany
+
+state_trait_staffelter = {
+	icon = "gfx/interface/icons/state_trait_icons/wineyard.dds"
+	
+	modifier = {
+		building_wheat_farm_throughput_mult = 0.05
+	}
+}
+
+#low countries
+
+state_trait_tulip = {
+	icon = "gfx/interface/icons/state_trait_icons/tulip.dds"
+	
+	modifier = {
+		building_rye_farm_throughput_mult = 0.05
+	}
+}
+
+state_trait_great_fishery = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_fish.dds"
+	
+	modifier = {
+		building_group_bg_fishing_throughput_mult = 0.1
+	}
+}
+
+state_trait_haarlow = {
+	icon = "gfx/interface/icons/state_trait_icons/textile_factory.dds"
+	
+	modifier = {
+		building_textile_mills_throughput_mult = 0.05
+	}
+}
+
+state_trait_flemish_diamond = {
+	icon = "gfx/interface/icons/state_trait_icons/city.dds"
+	
+	modifier = {
+		state_infrastructure_add = 10
+	}
+}
+
+#portugal
+
+state_trait_portugal_breadbasket = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+        building_group_bg_agriculture_throughput_mult = 0.05
+	}
+}
+
+#balkans
+
+#england
+
+state_trait_cottonopolis = {
+	icon = "gfx/interface/icons/state_trait_icons/textile_factory.dds"
+	
+	modifier = {
+		building_textile_mills_throughput_mult = 0.05
+	}
+}
+
+state_trait_linenopolis = {
+	icon = "gfx/interface/icons/state_trait_icons/textile_factory.dds"
+	
+	modifier = {
+		building_textile_mills_throughput_mult = 0.05
+	}
+}
+
+######################################## AMERICA
+
+#usa
+
+state_trait_mission_grapes = {
+	icon = "gfx/interface/icons/state_trait_icons/wineyard.dds"
+	
+	modifier = {
+		building_wheat_farm_throughput_mult = 0.05
+	}
+}
+
+state_trait_big_thicket = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		building_group_bg_logging_throughput_mult = 0.05
+	}
+}
+
+state_trait_tornado = {
+	icon = "gfx/interface/icons/state_trait_icons/tornado.dds"
+	
+	modifier = {
+		state_infrastructure_mult = -0.05
+	}
+}
+
+state_trait_beancity = {
+	icon = "gfx/interface/icons/state_trait_icons/city.dds"
+	
+	modifier = {
+		building_food_industry_throughput_mult = 0.05
+	}
+}
+
+state_trait_sonoran_desert = {
+	icon = "gfx/interface/icons/state_trait_icons/dry_climate.dds"
+	
+	modifier = {
+        building_group_bg_agriculture_throughput_mult = -0.1
+		state_construction_mult = -0.15
+		state_infrastructure_mult = -0.15
+	}
+}
+
+state_trait_steel_city = {
+	icon = "gfx/interface/icons/state_trait_icons/city.dds"
+	
+	modifier = {
+        building_steel_mills_throughput_mult = 0.05
+	}
+}
+
+###middleast
+
+state_trait_mocha = {
+	icon = "gfx/interface/icons/state_trait_icons/coffee.dds"
+	
+	modifier = {
+		building_coffee_plantation_throughput_mult = 0.1
+	}
+}

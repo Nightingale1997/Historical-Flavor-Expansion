@@ -1155,6 +1155,7 @@ STATE_HEREROLAND = {
     naval_exit_id = 3105
 }
 
+
 STATE_ZULULAND = {
     id = 257
     subsistence_building = "building_subsistence_farms"

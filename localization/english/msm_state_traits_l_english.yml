@@ -1,0 +1,70 @@
+﻿l_english:
+#japan
+ state_trait_traditional_whaling:0 "Traditional Whaling"
+ state_trait_satsuma_ware:0 "Satsuma Wares"
+ state_trait_miike_coalfield:0 "Miike Coalfield"
+ state_trait_hokutan_coalfield:0 "Hokutan Horonai"
+ state_trait_edo_rice:0 "Edo Rice Plains"
+#korea
+ state_trait_jiktong_coalfield:0 "Jiktong Coalfield"
+ state_trait_komdok_leadmine:0 "Komdak Mine"
+ state_trait_oryong_ironmine:0 "Oryong Iron Ore Deposits"
+ state_trait_jangsaengpo:0 "Jangsaengpo"
+#china
+ state_trait_manchurian_forest:0 "Manchurian Forest"
+ state_trait_fushun_coal:0 "Fushun Coalfield"
+ state_trait_takushan_iron:0 "Takushan Iron Ore Deposits"
+#austrialia
+ state_trait_bowen:0 "Bowen Basin"
+ state_trait_murray_darling:0 "Murry-Darling Basin"
+ state_trait_bay_of_plenty_one:0 "Bay of Plenty"
+#Europe
+#denmark
+ state_trait_danish_pig:0 "The Danish Pig"
+#spain
+ state_trait_camocha:0 "Camocha Coalfield"
+ state_trait_cercs:0 "Cercs Coalfield"
+ state_trait_bonastre:0 "Can Bonastre"
+ state_trait_guadalquivir_river:0 "Guadalquivir"
+#austria
+ state_trait_most_basin:0 "Most Basin"
+ state_trait_moravskeho:0 "Moravskeho Manchesteru"
+ state_trait_great_alfold:0 "Great Alföld"
+ state_trait_delvidek:0 "Vojvodina"
+#italy
+ state_trait_frescobaldi:0 "Frescobaldi"
+#france
+ state_trait_goulaine:0 "Chateau de Goulaine"
+ state_trait_vin_de_bordeaux:0 "Vin De Bordeaux"
+#germany
+ state_trait_staffelter:0 "Staffelter Hof"
+#lowcountries
+ state_trait_tulip:0 "Tulip Mania"
+ state_trait_great_fishery:0 "Great Fishery"
+ state_trait_haarlow:0 "Nederlandsche Handel-Maatschappij"
+ state_trait_flemish_diamond:0 "The Flemish Diamond"
+#portugal
+ state_trait_portugal_breadbasket:0 "Portugal's Breadbasket"
+#England
+ state_trait_cottonopolis:0 "Cottonpolis"
+ state_trait_linenopolis:0 "Linenpolis"
+#Poland
+ state_trait_apples:0 "Polish Apples"
+#americans
+#usa
+ state_trait_mission_grapes:0 "Mission Grapes"
+ state_trait_black_soil_nsa:0 "King Cotton"
+ state_trait_big_thicket:0 "Big Thicket"
+ state_trait_tornado:0 "Tornado Alley"
+ state_trait_beancity:0 "Bean Town"
+ state_trait_sonoran_desert:0 "Sonoran Desert"
+ state_trait_steel_city:0 "The Steel City"
+
+#middleast
+state_trait_mocha:0 "Arabian Mocha"
+
+#any
+ state_trait_taiga:0 "Taiga"
+ state_trait_arctic:0 "Arctic Weather"
+ state_trait_mollisol:0 "Mollisol Soil"
+ state_trait_chernozem:0 "Chernozem"
