@@ -4,9 +4,9 @@
 			first_name = "Carlos_María_Isidro_Benito"
 			last_name = "de_Borbon"
 			ruler = yes
-			dna = dna_carlos_V
+			dna = dna_carlos_v
 			birth_date = 1788.3.29
-			culture = cu:spanish
+		
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
