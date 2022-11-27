@@ -1,7 +1,8 @@
 ﻿CHARACTERS = {
 	c:CAR = {
+	
 		create_character = {
-			first_name = "Carlos_María_Isidro_Benito"
+			first_name = "Carlos_V"
 			last_name = "de_Borbon"
 			ruler = yes
 			dna = dna_carlos_v

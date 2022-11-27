@@ -171,6 +171,7 @@ STATE_CENTRAL_JAVA = {
     id = 912
     subsistence_building = "building_subsistence_farms"
     provinces = { "x01B3D5" "x143969" "x14F9F5" "x20DF70" "x62742E" "x727A46" "x9C517C" "xA06070" "xA12ED1" "xD19D2E" "xEB0621" }
+     traits = {"state_trait_volcanic_soil" }
     city = "xD19D2E"
     port = "xA06070"
     farm = "xA06070"
