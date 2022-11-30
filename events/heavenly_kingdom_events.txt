@@ -427,9 +427,27 @@ heavenly.4 = {
 					name = uprising_conscription
 					months = normal_modifier_time
 				}
+
+				
+		}	
 			}
 		}
 		c:TPG = {
+			create_character = {
+			first_name = "Hong"
+			last_name = "Xiuquan"
+			ruler = yes
+			culture = cu:han
+			dna = dna_hong_xiuquan
+			birth_date = 1814.1.1
+		
+			interest_group = ig_devout 
+			ideology = ideology_fascist
+			traits = {
+                	ambitious
+					pious
+					innovative
+			}
 			save_scope_as = heavenly_kingdom_scope
 		}
 		if = {
