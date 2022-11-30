@@ -1,0 +1,21 @@
+HAZ = {
+	color = { 88 80 163 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { hazara }
+	capital = STATE_WESTERN_AFGHANISTAN
+}
+
+HER = {
+	color = { 140  183  154 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { hazara }
+	capital = STATE_WESTERN_AFGHANISTAN
+}

@@ -422,9 +422,7 @@ state_trait_sonoran_desert = {
 state_trait_steel_city = {
 	icon = "gfx/interface/icons/state_trait_icons/city.dds"
 	
-	modifier = {
-        building_steel_mills_throughput_mult = 0.05
-	}
+
 }
 
 ###middleast

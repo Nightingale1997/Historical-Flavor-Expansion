@@ -15,6 +15,22 @@ ETH = {
 	}
 }
 
+PER = { 
+	dynamic_country_name = {
+		name = dyn_c_persia
+		adjective = dyn_c_persia_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+}
+
 LAT = {
 	dynamic_country_name = {
 		name = dyn_c_latvia

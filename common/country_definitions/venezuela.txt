@@ -1,0 +1,10 @@
+﻿REF = {
+    color = { 255  126  140 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { north_andean }
+	capital = STATE_ZULIA
+}

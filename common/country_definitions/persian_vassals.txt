@@ -1,0 +1,122 @@
+﻿ARD = {
+	color = { 191 147 79 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+JEL = {
+	color = { 210 34 131 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+SHA = {
+	color = { 150 0 25 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+ARB = {
+	color = { 106  178  46 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { bedouin  }
+	capital = STATE_KHUZESTAN
+}
+
+MAZ = {
+	color = { 137 106 217 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { persian }
+	capital = STATE_FARS
+}
+
+KAG = {
+	color = { 157  144  97 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { persian }
+	capital = STATE_FARS
+}
+
+AKH = {
+	color = { 93  180  76 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { turkmen }
+	capital = STATE_KHIVA
+}
+
+KHZ = {
+	color = { 93  180  76 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { turkmen }
+	capital = STATE_KHIVA
+}
+
+
+BOJ = {
+	color = { 93  180  76 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { turkmen }
+	capital = STATE_KHIVA
+}
+
+MAK = {
+	color = { 93  180  76 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_TABRIZ
+}
+
+QOC = {
+	color = { 93  180  76 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { turkmen }
+	capital = STATE_KHIVA
+}
+

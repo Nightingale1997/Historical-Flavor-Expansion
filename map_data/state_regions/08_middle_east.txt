@@ -396,9 +396,9 @@ STATE_ISFAHAN = {
 }
 
 STATE_MAZANDARAN = {
-    id = 420
+    id = 420 
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0FF449" "x129FA5" "x241E43" "x3834CF" "x4070A0" "x40EFA0" "x51E7A3" "x5694AE" "x5ADBFF" "x63F238" "x8070DF" "xC0B0E0" "xE697E6" "xE6DB67" }
+    provinces = { "x0FF449" "x241E43" "x3834CF" "x4070A0" "x40EFA0" "x51E7A3" "x5ADBFF" "x63F238" "x8070DF" "xC0B0E0" "xE697E6" "xE6DB67" }
     city = "xE697E6"
     farm = "x63F238"
     mine = "x3834CF"

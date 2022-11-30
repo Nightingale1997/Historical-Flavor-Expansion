@@ -136,11 +136,15 @@ Taiping Christianity, affects Heavenly Kingdom event chain and tag.
 
 Caucasian Revolt
 
+Fix Turkestan Spawn when puppets hold states
+
 ### South Africa
 
 Move historical leaders/stuff for oranje and transvaal into their events
 
 Colonial flag/name for basuto, swazi
+
+Fix Merina vassal breaking free immediately at game start
 
 ### Ethiopia
 
@@ -161,6 +165,10 @@ Add journals
 ### Bolivia/Peru
 
 Add generals to Bolivia (And puppets) so they can hold multiple fronts.
+
+Test annexation of both north and south peru as Bolivia
+
+Allow Peru to reunite even if the south is liberated instead (Might work already? Test)
 
 Peru-bolivia united flag
 
@@ -186,7 +194,13 @@ Impassable terrain
 
 Event to give American cultures fruit obsession leading into banana republics
 
+Aceh Padri War at game start, british protectorate after
+
 ## Potential Features
+
+San marino / Monaco
+
+Liberia historical start
 
 Sokoto flavor
 

@@ -1,0 +1,156 @@
+﻿SOR = {
+	color = { 113  112  96 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+HAK = {
+	color = { 211  220  178 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+KUW = {
+	color = { 88 80 163 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { bedouin }
+	capital = STATE_BASRA
+}
+
+BAN = {
+	color = { 93  180  76 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+BAY = {
+	color = { 139  138  160 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+
+
+BIT = {
+	color = { 220  202  96 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+BOK = {
+	color = { 0 135 81 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+TAI = {
+	color = { 255  87  127 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+KHA = {
+	color = { 207  111  64 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+MIL = {
+	color = { 118  229  215 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+JUM = {
+	color = { 101  102  163 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+DOJ = {
+	color = { 121  175  235 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+KOC = {
+	color = { 243  201  33 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
+ANA = {
+	color = hsv360{ 120  75  61 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kurdish }
+	capital = STATE_HAIL
+}
+
