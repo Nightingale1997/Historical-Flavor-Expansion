@@ -2,7 +2,7 @@
 	c:CAR = {
 	
 		create_character = {
-			first_name = "Carlos_V"
+			first_name = "Carlos"
 			last_name = "de_Borbon"
 			ruler = yes
 			dna = dna_carlos_v
