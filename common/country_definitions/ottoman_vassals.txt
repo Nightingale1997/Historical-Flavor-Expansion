@@ -6,7 +6,7 @@
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_MOSUL
 }
 
 HAK = {
@@ -17,7 +17,7 @@ HAK = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_ERZURUM
 }
 
 KUW = {
@@ -27,7 +27,7 @@ KUW = {
 	
 	tier = principality
 	
-	cultures = { bedouin }
+	cultures = { mashriqi }
 	capital = STATE_BASRA
 }
 
@@ -39,7 +39,7 @@ BAN = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_BAGHDAD
 }
 
 BAY = {
@@ -50,10 +50,8 @@ BAY = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_ERZURUM
 }
-
-
 
 BIT = {
 	color = { 220  202  96 }
@@ -63,7 +61,7 @@ BIT = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_ERZURUM
 }
 
 BOK = {
@@ -74,7 +72,7 @@ BOK = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_DIYARBAKIR
 }
 
 TAI = {
@@ -85,7 +83,7 @@ TAI = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_DEIR_EZ_ZOR
 }
 
 KHA = {
@@ -96,7 +94,7 @@ KHA = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_DIYARBAKIR
 }
 
 MIL = {
@@ -107,7 +105,7 @@ MIL = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_DIYARBAKIR
 }
 
 JUM = {
@@ -118,7 +116,7 @@ JUM = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_ADANA
 }
 
 DOJ = {
@@ -129,7 +127,7 @@ DOJ = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_ANKARA
 }
 
 KOC = {
@@ -140,7 +138,7 @@ KOC = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_ANKARA
 }
 
 ANA = {
@@ -150,7 +148,7 @@ ANA = {
 	
 	tier = principality
 	
-	cultures = { kurdish }
+	cultures = { bedouin }
 	capital = STATE_HAIL
 }
 

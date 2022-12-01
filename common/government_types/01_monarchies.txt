@@ -15,19 +15,44 @@
 	}
 }
 
-gov_kurdish_state = {								
+gov_heavenly_kingdom = {
 	transfer_of_power = hereditary
 	
-	male_ruler = "RULER_TITLE_VALI"			# Governor. This post would usually be appointed by the Ottoman Sultan, and not be hereditary. 
-	female_ruler = "" # Empty on purpose
+	male_ruler = "RULER_TITLE_HEAVENLY_KING"
+	female_ruler = "RULER_TITLE_HEAVENLY_QUEEN" 
 
-	male_heir = "RULER_TITLE_MUTASARRIF"	# Governor of a Vilayet's subunit, the Sanjak, who would assume command in the Vali's absence
+	male_heir = "RULER_TITLE_HEIR_APPARENT"
+	female_heir = "RULER_TITLE_HEIR_APPARENT"
+	
+	possible = {
+		exists = c:TPG
+		c:TPG = ROOT
+		has_law = law_type:law_theocracy
+	}
+}
+
+gov_kurdish_state = {								
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_EMIR"
+	female_ruler = "RULER_TITLE_EMIRA"
+	
+	male_heir = "" # Empty on purpose
 	female_heir = "" # Empty on purpose
 	
 	possible = {
 		country_has_primary_culture = cu:kurdish
-		exists = c:TUR
-		is_subject_of = c:TUR		
+		OR = {
+			AND = {
+				exists = c:TUR
+				is_subject_of = c:TUR	
+			}
+			AND = {
+				exists = c:PER
+				is_subject_of = c:PER
+			}
+		}
+	
 	}		
 }
 

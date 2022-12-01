@@ -1,11 +1,11 @@
-HAZ = {
+CHA = {
 	color = { 88 80 163 }
 	
 	country_type = unrecognized
 	
 	tier = principality
 	
-	cultures = { hazara }
+	cultures = { uzbek }
 	capital = STATE_WESTERN_AFGHANISTAN
 }
 
@@ -16,6 +16,6 @@ HER = {
 	
 	tier = principality
 	
-	cultures = { hazara }
+	cultures = { persian pashtun }
 	capital = STATE_WESTERN_AFGHANISTAN
 }

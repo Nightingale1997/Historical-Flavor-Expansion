@@ -1,0 +1,29 @@
+﻿je_persia_kurdistan = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	complete = {
+        NOT = {
+        any_country = {
+            country_has_primary_culture = cu:kurdish
+            this = {
+                any_scope_state = {
+                    OR = {
+                        state_region = s:STATE_TABRIZ
+                        state_region = s:STATE_LURISTAN
+                        state_region = s:STATE_KHORASAN            
+                    }
+                }
+            }
+        }
+        }
+
+	}
+
+	on_complete = {
+
+	}
+
+	inheritable = no
+
+	weight = 5000
+}

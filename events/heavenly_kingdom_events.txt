@@ -389,14 +389,21 @@ heavenly.4 = {
 			origin = this
 			state = scope:heavenly_kingdom_spawn
 			on_created = {
+		
+
+				ig:ig_devout = {
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_taiping_moralist
+				}
+
 				if = {
 					limit = {
 						NOT = {
 							has_ruling_interest_group = ig_devout
 						}
 					}
-					ig:ig_devout = {
-						add_ruling_interest_group = yes
+					set_ruling_interest_groups = {
+						ig_devout
 					}
 				}
 				if = {
@@ -423,31 +430,27 @@ heavenly.4 = {
 					}
 					activate_law = law_type:law_peasant_levies
 				}
+				if = {
+					limit = {
+						NOT = {
+							has_law = law_type:law_serfdom_banned
+						}
+					}
+					activate_law = law_type:law_serfdom_banned
+				}
+
+		
+
 				add_modifier = {
 					name = uprising_conscription
 					months = normal_modifier_time
-				}
-
-				
-		}	
-			}
+				}	
+			}		
 		}
 		c:TPG = {
-			create_character = {
-			first_name = "Hong"
-			last_name = "Xiuquan"
-			ruler = yes
-			culture = cu:han
-			dna = dna_hong_xiuquan
-			birth_date = 1814.1.1
-		
-			interest_group = ig_devout 
-			ideology = ideology_fascist
-			traits = {
-                	ambitious
-					pious
-					innovative
-			}
+
+			trigger_event = { id = heavenly.6 }
+
 			save_scope_as = heavenly_kingdom_scope
 		}
 		if = {
@@ -498,6 +501,7 @@ heavenly.4 = {
 			target_country = scope:heavenly_kingdom_scope
 			type = dp_taiping_rebellion
 		}
+		
 	}
 	option = {
 		name = heavenly.4.b
@@ -605,5 +609,55 @@ heavenly.5 = {
 				value = 25
 			}
 		}
+	}
+}
+
+# Aftermath event
+heavenly.6 = {
+	type = country_event
+	placement = ROOT
+
+	title = heavenly.6.t
+	desc = heavenly.6.d
+	flavor = heavenly.6.f
+
+	event_image = {
+		video = "gfx/event_pictures/asia_union_leader.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/union_leader"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+		# triggered by journal entry
+	}
+
+	option = { # mass re-conversions
+		name = heavenly.6.a
+		default_option = yes
+
+				create_character = {
+					first_name = "Hong"
+					last_name = "Xiuquan"
+					ig_leader = yes
+					ruler = yes
+					culture = cu:han
+					dna = dna_hong_xiuquan
+					birth_date = 1814.1.1
+				
+					interest_group = ig_devout 
+					ideology = ideology_fascist
+					traits = {
+							ambitious
+							pious
+							innovative
+					}
+				}
+
+
 	}
 }
