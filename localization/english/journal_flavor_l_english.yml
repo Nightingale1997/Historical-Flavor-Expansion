@@ -360,3 +360,15 @@ gbr_saf_relations_tt: "Have at least Amicable relations with two South African s
  decision_africa.6.d: "The unification of South Africa is complete. The various colonial governments have been integrated into one, under the administration of [SCOPE.sCountry('south_africa_country').GetName] and with the enthusiastic approval of [ROOT.GetCountry.GetName]."
 
 entre_rios_leader: "Justo José"
+antonio_gutiérrez: "Antonio Gutiérrez"
+
+agustI_n: "Agustín"
+gamarra: "Gamarra"
+antonio: "Antonio"
+huachaca: "Huachaca"
+philipp_braun: "Philipp_Braun"
+ballivian: "Ballivian"
+ideology_taiping_moralist: "Taiping Moralism"
+RULER_TITLE_HEAVENLY_KING: "Heavenly King"
+RULER_TITLE_HEAVENLY_QUEEN: "Heavenly Queen"
+

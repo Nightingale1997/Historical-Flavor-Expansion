@@ -1,7 +1,7 @@
 ﻿
 
 dna_Justo_Jose_de_Urquiza = {
-   portait_info={
+   portrait_info={
 	type=male
 	id=1268182735
 	age=0.350000

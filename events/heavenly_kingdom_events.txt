@@ -394,6 +394,8 @@ heavenly.4 = {
 				ig:ig_devout = {
 					remove_ideology = ideology_moralist
 					add_ideology = ideology_taiping_moralist
+					remove_ideology = ideology_patriarchal
+					add_ideology = ideology_loyalist
 				}
 
 				if = {

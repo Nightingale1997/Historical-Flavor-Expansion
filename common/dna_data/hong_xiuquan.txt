@@ -1,7 +1,7 @@
 ﻿
 
 dna_hong_xiuquan = {
-    portait_info={
+    portrait_info={
 	type=male
 	id=0
 	age=0.220000
