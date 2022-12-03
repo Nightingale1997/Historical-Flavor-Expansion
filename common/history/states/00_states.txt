@@ -5389,7 +5389,7 @@ STATES = {
 	}
 	s:STATE_ARMENIA = {
 		create_state = {
-			country = c:RUS
+			country = c:CAU
 			owned_provinces = { x805000 xAB3AF1 xDC0812 x005000 x16A02D x30DF60 x3161E0 }
 			state_type = unincorporated
 		}
@@ -5400,7 +5400,7 @@ STATES = {
 	}
 	s:STATE_AZERBAIJAN = {
 		create_state = {
-			country = c:RUS
+			country = c:CAU
 			owned_provinces = { x008FBF x493F0B x6EB08E x0E8C3E x80D041 xDFB2B0 x9195D4 x2F7A57 x809040 x747318 x0E70E4 xB7DDE5 x0B74ED xEE1A87 x404F5B x8090BF xE7B07C x0467D5 x007060 xBFD159 x69FE0D xD77566 }
 			state_type = unincorporated
 		}
@@ -5411,9 +5411,20 @@ STATES = {
 	}
 	s:STATE_GREATER_CAUCASUS = {
 		create_state = {
-			country = c:RUS
-			owned_provinces = { x3537D5 xFB53B8 x9BC69B x74A861 xC27075 xD62036 xC0CF80 xFB38B0 xD15CBD xF0E0DF x4A4DF9 xD65AC8 x85DCE4 xD1A8AF x801000 xC9B445 x011141 x73A639 x40D001 }
-			state_type = unincorporated
+			country = c:CAU
+			owned_provinces = { x3537D5 xFB53B8 x9BC69B x74A861 xD62036 xC0CF80 xFB38B0 xD15CBD xF0E0DF x4A4DF9 }
+		}
+		create_state = {
+			country = c:ABK
+			owned_provinces = { x73A639 x40D001 }
+		}
+		create_state = {
+			country = c:SVA
+			owned_provinces = { xD1A8AF xD65AC8 }
+		}
+		create_state = {
+			country = c:MIN
+			owned_provinces = { x011141 x85DCE4 x801000 xC9B445 xC27075 }
 		}
 		
 		add_homeland = georgian
@@ -5536,7 +5547,7 @@ STATES = {
 			owned_provinces = { x467F92 xB8481F x009000 x8A9689 x809001 }
 		}
 		create_state = {
-			country = c:RUS
+			country = c:CAU
 			owned_provinces = { x327755 xC09080 }
 		}
 

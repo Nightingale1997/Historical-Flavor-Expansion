@@ -78,7 +78,7 @@
 		}
 	}
 	s:STATE_ARMENIA={
-		region_state:RUS={
+		region_state:CAU={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -88,7 +88,7 @@
 		}
 	}
 	s:STATE_AZERBAIJAN={
-		region_state:RUS={
+		region_state:CAU={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -104,7 +104,7 @@
 		}
 	}
 	s:STATE_GREATER_CAUCASUS={
-		region_state:RUS={
+		region_state:CAU={
 			create_building={
 				building="building_textile_mills"
 				level=1

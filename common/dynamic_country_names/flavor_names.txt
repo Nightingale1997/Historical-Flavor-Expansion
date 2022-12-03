@@ -94,6 +94,27 @@ EST = {
 	}
 }
 
+CAU = {
+	dynamic_country_name = {
+		name = dyn_c_caucasia
+		adjective = dyn_c_caucasia_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:RUS
+			c:RUS = {
+				has_diplomatic_pact = {
+					who = c:CAU
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
 LIV = {
 	dynamic_country_name = {
 		name = dyn_c_livonia

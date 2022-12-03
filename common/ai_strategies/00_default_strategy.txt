@@ -161,6 +161,15 @@ ai_strategy_default = {
 	# All strategies are added together here to produce a value from 0 to 1
 	wargoal_maneuvers_fraction = {
 		value = 0.35
+
+		#North Peru
+
+		if = {
+			limit = {
+				has_journal_entry = je_peru_unification
+			}
+			add = 1
+		}
 		
 		if = {
 			limit = { 
@@ -182,6 +191,13 @@ ai_strategy_default = {
 	bravery = { 
 		value = 1
 		
+		if = {
+			limit = {
+				has_journal_entry = je_peru_unification
+			}
+			add = 5
+		}
+
 		if = {###NFM Added
 			limit = {
   				ruler = {has_ideology = ideology_pacifist}
@@ -286,6 +302,18 @@ ai_strategy_default = {
 				}
 			}
 			add = 0.5
+		}
+
+		#North Peru
+
+		if = {
+			limit = {
+				has_journal_entry = je_peru_unification
+				scope:target_country = {
+					has_journal_entry = je_peru_bolivia
+				}
+			}
+			add = 1000
 		}
 
 		# Warlord China Thunderdome

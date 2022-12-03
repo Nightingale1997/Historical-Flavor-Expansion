@@ -1516,7 +1516,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:RUS={
+		region_state:CAU={
 		}
 	}
 	s:STATE_ANKARA={

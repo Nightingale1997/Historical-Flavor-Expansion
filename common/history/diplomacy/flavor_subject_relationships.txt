@@ -16,6 +16,10 @@
 			country = c:LAT
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:CAU
+			type = puppet
+		}
 	}
 	c:ARG = {
 		create_diplomatic_pact = {
