@@ -1,6 +1,6 @@
 ﻿
 
-dna_Justo_José_de_Urquiza = {
+dna_Justo_Jose_de_Urquiza = {
    portait_info={
 	type=male
 	id=1268182735

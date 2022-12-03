@@ -645,7 +645,7 @@ heavenly.6 = {
 					last_name = "Xiuquan"
 					ig_leader = yes
 					ruler = yes
-					culture = cu:han
+					culture = cu:hakka
 					dna = dna_hong_xiuquan
 					birth_date = 1814.1.1
 				

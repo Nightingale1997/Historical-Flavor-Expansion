@@ -349,3 +349,6 @@ gbr_saf_relations_tt: "Have at least Amicable relations with two South African s
  decision_africa.5.f: "The dream of a united South Africa has finally been achieved. From humble beginnings as a small colony in the Cape of Good Hope, the settlers have grown and adapted. They have become a people. They have forged a nation."
  decision_africa.5.a: "South Africa is strong and free!"
  decision_africa.6.d: "The unification of sSouth Africa is complete. The various colonial governments have been integrated into one, under the administration of [SCOPE.sCountry('south_africa_country').GetName] and with the enthusiastic approval of [ROOT.GetCountry.GetName]."
+
+
+entre_rios_leader: "Justo José"
