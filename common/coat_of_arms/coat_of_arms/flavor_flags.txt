@@ -46,8 +46,33 @@ BAA = {
 		color1 = "white"
 		color2 = "red"
 	}
+
+	colored_emblem = {
+		texture = "ce_cross_switzerland.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
+	}
 }
 
+ANT = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "white"
+	
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "red_light"
+		color2 = "red_light"
+		instance = { scale = { 0.7 0.7 }  rotation = -90 position = { 0.5 0.7 } }		
+	}	
+	colored_emblem = {
+		texture = "ce_star_06.dds"
+		color1 = "red_light"
+		color2 = "red_light"	
+		instance = { scale = { 0.3 0.3 } position = { 0.5 0.5 } }			
+	}		
+}
 
 BOL_united = {
 	pattern = "pattern_solid.tga"

@@ -106,21 +106,41 @@ POPS = {
 		region_state:VNZ = {
 			create_pop = {
 				culture = north_andean
-				size = 266908
+				size = 206908
 			}
 			create_pop = {
 				culture = cariban
 				religion = catholic
-				size = 8004
+				size = 6004
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 60208
+				size = 50208
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_caribeno
 				size = 24004
+			}
+		}
+		region_state:REF = {
+			create_pop = {
+				culture = north_andean
+				size = 66908
+			}
+			create_pop = {
+				culture = cariban
+				religion = catholic
+				size = 2004
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 10208
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 4004
 			}
 		}
 	}
