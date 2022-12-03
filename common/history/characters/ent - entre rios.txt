@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:ENT = {
+		create_character = {
+			first_name = "Justo_José"
+			last_name = "de_Urquiza"
+			ruler = yes
+			dna = dna_Justo_José_de_Urquiza
+			birth_date = 1801.10.18
+		
+			interest_group = ig_armed_forces
+			ideology = ideology_radical
+			
+		}	
+
+    
+
+
+	}
+}
