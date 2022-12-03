@@ -1,0 +1,17 @@
+# DIPLOMATIC_PLAYS = {
+#	c:TRI = {
+#		create_diplomatic_play = {
+#			name = tripolitanian_revolt
+#			target_country = c:TUR
+#			war = yes
+#			
+#			type = dp_independence
+#
+#			add_war_goal = {
+#				holder = c:TUR
+#				type = humiliation
+#                target_country = c:TRI
+#			}
+#		}			
+#	}
+#}

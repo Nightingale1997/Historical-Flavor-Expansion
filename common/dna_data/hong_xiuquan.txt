@@ -3,7 +3,7 @@
 dna_hong_xiuquan = {
     portait_info={
 	type=male
-	id=132450643
+	id=0
 	age=0.220000
 	genes={ 		hair_color={ 0 255 53 229 }
  		skin_color={ 65 45 51 76 }
@@ -112,12 +112,12 @@ dna_hong_xiuquan = {
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
  		eye_lashes_accessory={ "normal_eyelashes" 0 "normal_eyelashes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
- 		outfits={ "chinese_court_outfits" 24 "all_outfits" 0 }
- 		legwear={ "european_legwear_colors" 0 "all_legwear" 0 }
+ 		outfits={ "chinese_court_outfits" 0 "all_outfits" 0 }
  		headgear={ "ethiopian_royal_headgear" 0 "all_headgear" 0 }
  }
 	entity={ 0 0 }
 }
+
 
 
     enabled=yes

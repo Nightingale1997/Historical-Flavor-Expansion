@@ -6,7 +6,7 @@
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_LURISTAN
 }
 
 JEL = {
@@ -17,18 +17,18 @@ JEL = {
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_TABRIZ
 }
 
 SHA = {
 	color = { 150 0 25 }
-	
+	religion = shia
 	country_type = unrecognized
 	
 	tier = principality
 	
 	cultures = { kurdish }
-	capital = STATE_HAIL
+	capital = STATE_TABRIZ
 }
 
 ARB = {
@@ -38,7 +38,7 @@ ARB = {
 	
 	tier = principality
 	
-	cultures = { bedouin  }
+	cultures = { persian }
 	capital = STATE_KHUZESTAN
 }
 
@@ -82,41 +82,41 @@ KHZ = {
 	
 	tier = principality
 	
-	cultures = { turkmen }
+	cultures = { persian }
 	capital = STATE_KHIVA
 }
 
 
 BOJ = {
-	color = { 93  180  76 }
-	
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { turkmen }
-	capital = STATE_KHIVA
-}
-
-MAK = {
-	color = { 93  180  76 }
+	color = { 201 197 124 }
 	
 	country_type = unrecognized
 	
 	tier = principality
 	
 	cultures = { kurdish }
+	capital = STATE_KHORASAN
+}
+
+MUK = {
+	color = { 255  140  0 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	religion = shia
+	cultures = { kurdish }
 	capital = STATE_TABRIZ
 }
 
 QOC = {
-	color = { 93  180  76 }
+	color = { 255  87  127 }
 	
 	country_type = unrecognized
 	
 	tier = principality
 	
-	cultures = { turkmen }
-	capital = STATE_KHIVA
+	cultures = { kurdish }
+	capital = STATE_KHORASAN
 }
 
