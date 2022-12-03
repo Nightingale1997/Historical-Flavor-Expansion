@@ -47,6 +47,12 @@
   je_ainu_frontier_reason: "The development of Japan's large northern island was seen as a means to defend Japan from a rapidly developing and expansionist Russia. Development also promised to yield the needed natural resources for a growing capitalist economy."
   je_ainu_frontier_status: "Colonize the island of Hokkaido."
   
+  je_reformist_victory: "Revolution of the Reforms"
+  je_reformist_victory_reason: "The Revolution of the Reforms was a military movement in Venezuela between 7 June 1835 and 1 March 1836, against the government of José María Vargas, the conservative Congress and the influence of José Antonio Páez."
+  je_reformist_victory_status: "Topple the conservative government of Venezuela."
+
+
+
   je_deseret: "The State of Deseret"
   je_deserete_reason: "Test"
   je_deseret_status: "Mormon pioneers are looking for a new home."
@@ -172,6 +178,7 @@
 dp_carlist_war: "First Carlist War"
 tripolitanian_revolt: "Tripolitanian Revolt"
 carlist_war: "First Carlist War"
+reformist_war: "Revolution of the Reforms"
 dp_xhosa_war: "Sixth Xhosa War"
 xhosa_war: "Sixth Xhosa War"
 caucasian_war: "Caucasian War"
@@ -272,6 +279,8 @@ caucasian_war: "Caucasian War"
     kle_exists: "The Natalia Republic has been founded"
     boer_republics_formed: "The Great Trek has concluded"
 
+    win_civil_war: "Venezuela has been defeated"
+
     voortrekker: "Voortrekker"
     anglo_indian: "Anglo-Indian"
 
@@ -348,7 +357,4 @@ gbr_saf_relations_tt: "Have at least Amicable relations with two South African s
  decision_africa.5.d: "The unification of South Africa is complete. The various colonial governments have been integrated into one, under the administration of [ROOT.GetCountry.GetName] and with the enthusiastic approval of [SCOPE.sCountry('south_africa_overlord_country').GetName]."
  decision_africa.5.f: "The dream of a united South Africa has finally been achieved. From humble beginnings as a small colony in the Cape of Good Hope, the settlers have grown and adapted. They have become a people. They have forged a nation."
  decision_africa.5.a: "South Africa is strong and free!"
- decision_africa.6.d: "The unification of sSouth Africa is complete. The various colonial governments have been integrated into one, under the administration of [SCOPE.sCountry('south_africa_country').GetName] and with the enthusiastic approval of [ROOT.GetCountry.GetName]."
-
-
-entre_rios_leader: "Justo José"
+ decision_africa.6.d: "The unification of South Africa is complete. The various colonial governments have been integrated into one, under the administration of [SCOPE.sCountry('south_africa_country').GetName] and with the enthusiastic approval of [ROOT.GetCountry.GetName]."

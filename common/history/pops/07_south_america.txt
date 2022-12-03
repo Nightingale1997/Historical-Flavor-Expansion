@@ -76,7 +76,7 @@ POPS = {
 		}
 	}
 	s:STATE_ZULIA = {
-		region_state:VNZ = {
+		region_state:REF = {
 			create_pop = {
 				culture = north_andean
 				size = 325608
@@ -106,41 +106,21 @@ POPS = {
 		region_state:VNZ = {
 			create_pop = {
 				culture = north_andean
-				size = 206908
+				size = 266908
 			}
 			create_pop = {
 				culture = cariban
 				religion = catholic
-				size = 6004
+				size = 8004
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 50208
+				size = 60208
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_caribeno
 				size = 24004
-			}
-		}
-		region_state:REF = {
-			create_pop = {
-				culture = north_andean
-				size = 66908
-			}
-			create_pop = {
-				culture = cariban
-				religion = catholic
-				size = 2004
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 10208
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 4004
 			}
 		}
 	}

@@ -74,6 +74,11 @@ ANT = {
 	}		
 }
 
+REF = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+
 BOL_united = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
