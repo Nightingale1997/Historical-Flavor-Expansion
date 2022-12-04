@@ -15,7 +15,7 @@ journal_flavor_russia.1 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/asia/hinduism_sikhism"
 
-	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	minor_left_icon = c:TRH
 	minor_right_icon = c:RUS
@@ -76,7 +76,7 @@ journal_flavor_russia.1 = {
 		name = journal_flavor_russia.1.a
 		custom_tooltip = journal_flavor_russia.1.a.tt
 		default_option = yes
-		
+		ai_chance = { base = 0 }
 			every_state = {
 				limit = {
 				OR = {
@@ -105,8 +105,8 @@ journal_flavor_russia.1 = {
             s:STATE_EASTERN_AFGHANISTAN = {
 				add_claim = c:RUS
 			}
-            	add_modifier = {
-			name = control_turkestan # country_prestige_add = -10
+        add_modifier = {
+			name = control_turkestan 
 			months = normal_modifier_time
 		}
         change_relations = {
@@ -117,6 +117,7 @@ journal_flavor_russia.1 = {
     	option = {
 		name = journal_flavor_russia.1.b
 		custom_tooltip = journal_flavor_russia.1.b.tt
+		ai_chance = { base = 1 }
 			every_state = {
 				limit = {
 				OR = {
@@ -493,6 +494,58 @@ journal_flavor_russia.4 = {
 				name = polish_revolutionaries
 				months = short_modifier_time
 			}
+		}
+	}
+}
+
+journal_flavor_russia.5 = {
+
+	type = country_event
+	placement = root
+
+	title = journal_flavor_russia.5.t
+	desc = journal_flavor_russia.5.d
+	flavor = journal_flavor_russia.5.f
+
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_russian_serfs.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/russian_serfs"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds" 
+
+	duration = 3
+
+	option = {
+		name = journal_flavor_russia.5.a
+
+		add_modifier = {
+			name = russia_welfare
+			months = normal_modifier_time
+		}
+
+		add_loyalists = {
+			pop_type = peasants
+			value = very_large_radicals
+		}
+		add_radicals = {
+			pop_type = aristocrats
+			value = large_radicals
+		}
+	}
+	option = {
+		name = journal_flavor_russia.5.b
+
+		add_loyalists = {
+			pop_type = peasants
+			value = medium_radicals
+		}
+		add_radicals = {
+			pop_type = aristocrats
+			value = small_radicals
 		}
 	}
 }

@@ -134,9 +134,7 @@ Taiping Christianity, affects Heavenly Kingdom event chain and tag.
 
 ### Russia
 
-Caucasian Revolt
-
-Fix Turkestan Spawn when puppets hold states
+Caucasian War, keep adding turmoil until times out or no discrimination
 
 ### South Africa
 
@@ -144,33 +142,23 @@ Move historical leaders/stuff for oranje and transvaal into their events
 
 Colonial flag/name for basuto, swazi
 
-Fix Merina vassal breaking free immediately at game start
-
 ### Ethiopia
 
 Add reward event to age of princes
 
 ### Spain
 
-Add DNA to leader
-
 Event/Journal for winning the civil war.
 
 ### Argentina
 
-Dynamic name, DNA for Entre Rios and Corrientes.
+Dynamic name,
 
 Add journals
 
 ### Bolivia/Peru
 
-Add generals to Bolivia (And puppets) so they can hold multiple fronts.
-
-Test annexation of both north and south peru as Bolivia
-
-Allow Peru to reunite even if the south is liberated instead (Might work already? Test)
-
-Peru-bolivia united flag
+Make north peru less cowardly
 
 ## Planned Features
 
@@ -183,8 +171,6 @@ Better Reformed Icon
 Enable more major formations. (Arabia, Indonesia, China)
 
 More Ethiopia Flavor.
-
-Caucasian War, keep adding turmoil until times out or no discrimination
 
 USA Journal for Cuba, Puerto Rico, Philippines
 

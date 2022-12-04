@@ -43,7 +43,7 @@ je_kiselyov_reforms = {
 	}
 
 	on_complete = {
-		trigger_event = { id = journal_flavor_russia.1 } # Towards India
+		trigger_event = { id = journal_flavor_russia.5 } # Emancipation
 	}
 
 	status_desc = {
@@ -56,6 +56,179 @@ je_kiselyov_reforms = {
     should_be_pinned_by_default = yes
 	weight = 100
 }
+
+je_unite_caucasia = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	complete = {
+		OR = { 
+			has_law = law_type:law_unitary
+			has_law = law_type:law_totalitarian
+		}
+		has_technology_researched = central_archives
+	}
+
+	fail = {
+		NOR = {
+			c:SVA = { is_subject_of = c:RUS } 
+			c:MIN = { is_subject_of = c:RUS } 
+			c:ABK = { is_subject_of = c:RUS } 
+		}
+	}
+
+
+	on_complete = {
+
+		c:CAU = {
+			if = {
+				limit = {
+					AND = { 
+						c:CAU = { is_subject_of = c:RUS } 
+						c:MIN = { is_subject_of = c:RUS }
+					}
+
+				}
+				annex = c:MIN
+			}
+			else_if = {
+				limit = {
+						c:MIN = { is_subject_of = c:RUS }
+				}
+				c:RUS = {
+				annex = c:MIN
+				}
+			}
+			if = {
+				limit = {
+						AND = { 
+						c:CAU = { is_subject_of = c:RUS } 
+						c:ABK = { is_subject_of = c:RUS }
+						}
+				}
+				annex = c:ABK
+			}
+			else_if = {
+				limit = {
+						c:ABK = { is_subject_of = c:RUS }
+				}
+				c:RUS = {
+					annex = c:ABK
+				}
+			}
+			if = {
+				limit = {
+						AND = { 
+						c:CAU = { is_subject_of = c:RUS } 
+						c:SVA = { is_subject_of = c:RUS }
+						}
+				}
+				annex = c:SVA
+			}
+			else_if = {
+				limit = {
+						c:SVA = { is_subject_of = c:RUS }
+				}
+				c:RUS = {
+				annex = c:SVA
+				}
+			}
+
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_unite_caucasia_status
+			}
+		}
+	}
+	weight = 100
+}
+
+je_absorb_governorates = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	complete = {
+			has_law = law_type:law_totalitarian
+	}
+
+	fail = {
+		NOR = {
+			c:SVA = { is_subject_of = c:RUS } 
+			c:MIN = { is_subject_of = c:RUS } 
+			c:ABK = { is_subject_of = c:RUS } 
+		}
+	}
+
+	on_complete = {
+		c:CAU = {
+			if = {
+				limit = {
+					AND = { 
+						c:CAU = { is_subject_of = c:RUS } 
+						c:MIN = { is_subject_of = c:RUS }
+					}
+
+				}
+				annex = c:MIN
+			}
+			else_if = {
+				limit = {
+						c:MIN = { is_subject_of = c:RUS }
+				}
+				c:RUS = {
+				annex = c:MIN
+				}
+			}
+			if = {
+				limit = {
+						AND = { 
+						c:CAU = { is_subject_of = c:RUS } 
+						c:ABK = { is_subject_of = c:RUS }
+						}
+				}
+				annex = c:ABK
+			}
+			else_if = {
+				limit = {
+						c:ABK = { is_subject_of = c:RUS }
+				}
+				c:RUS = {
+					annex = c:ABK
+				}
+			}
+			if = {
+				limit = {
+						AND = { 
+						c:CAU = { is_subject_of = c:RUS } 
+						c:SVA = { is_subject_of = c:RUS }
+						}
+				}
+				annex = c:SVA
+			}
+			else_if = {
+				limit = {
+						c:SVA = { is_subject_of = c:RUS }
+				}
+				c:RUS = {
+				annex = c:SVA
+				}
+			}
+
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_unite_caucasia_status
+			}
+		}
+	}
+	weight = 100
+}
+
 
 je_january_uprising = {
 	icon = "gfx/interface/icons/event_icons/event_protest.dds"

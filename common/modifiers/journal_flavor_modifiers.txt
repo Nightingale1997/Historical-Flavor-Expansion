@@ -3,6 +3,11 @@
 	country_prestige_mult = 0.05
 }
 
+russia_welfare = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_minimum_wealth_add = 2
+}
+
 control_korea = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_prestige_mult = 0.05

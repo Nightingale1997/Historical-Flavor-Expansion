@@ -59,11 +59,17 @@
   je_livonia_partition_reason: "Livonian culture is slowly dying out, and our country is mostly inhabited by people identifying as Latvian or Estonian. If any of our neighboring governorates gain independence, our country is likely to be reorganized and absorbed into other administrative units."
   je_livonia_partition_status: "The independence of other baltic nations threatens us."
 
+  je_kiselyov_reforms: "Kiselyov's Reforms"
+  je_kiselyov_reforms_reason: "In Saint Petersburg in 1835, Kiselyov was admitted to the State Council of Imperial Russia and to the secret committees deliberating on effective ways to emancipate the serfs. The same year, Kiselyov submitted to the tsar a comprehensive programme for reforms, which scared conservative landowners so much that the monarch had it laid to rest. Two years later, Kiselyov was appointed Imperial Minister of State Properties, a key post which he filled with great efficiency. Kiselyov became a count and reformed the administration of state-owned peasants, working towards full emancipation of russian serfs. "
+  je_kiselyov_reforms_status: "End serfdom within the Russian Empire."
+
+  je_unite_caucasia: "Abolish Georgian Protectorates"
+  je_unite_caucasia_reason: "During the course of the 19th century, Russia absorbed many smaller states under its protection, including the small georgian kingdoms of the caucasus."
+  je_unite_caucasia_status: "Centralize the state and establish firm control of the caucasus."
 
   je_deseret: "The State of Deseret"
   je_deseret_reason: "Test"
   je_deseret_status: "Mormon pioneers are looking for a new home."
-
 
   journal_flavor_japan.1.t: "The Iwakura Mission"
   journal_flavor_japan.1.d: "With the policy of Sakoku coming to and end, scholars and officials prepare a voyage to bring back knowledge from abroad."
@@ -113,6 +119,13 @@
   journal_flavor_russia.4.f: "Poland's underground National Government organised a general strike against their Russian occupiers in [SCOPE.sState('cult_growth_state').GetName]. The action has spurred increased disobedience."
   journal_flavor_russia.4.a: "We have to put an end to this."
   journal_flavor_russia.4.a.tt: "Unrest spreads."
+
+
+  journal_flavor_russia.5.t: "The Great Emancipation"
+  journal_flavor_russia.5.d: "The serfs have officially been emancipated, following a speech given by [ROOT.GetCountry.GetRuler.GetFullName]."
+  journal_flavor_russia.5.f: "The emancipation reform, also known as the Edict of Emancipation of Russia, was the most important of the liberal reforms enacted during the reign of [ROOT.GetCountry.GetRuler.GetFullName]. The Emancipation Manifesto proclaimed the emancipation of the serfs on private estates and of the domestic (household) serfs. By this edict more than 23 million people received their liberty.  Serfs gained the full rights of free citizens, including rights to marry without having to gain consent, to own property and to own a business. The Manifesto prescribed that peasants would be able to buy the land from the landlords."
+  journal_flavor_russia.5.a: "A step in the right direction."
+  journal_flavor_russia.5.b: "A gradual approach would be wiser."
 
   journal_flavor_south_africa.1.t: "The Natalia Republic"
   journal_flavor_south_africa.1.d: "Emigrant Boers from [SCOPE.GetRootScope.GetCountry.GetNameNoFlag] have trekked over the passes of the Drakensberg to found a new nation."
@@ -184,7 +197,7 @@
 
 
 
-  control_turkestan: "Russian Turkestan"
+control_turkestan: "Russian Turkestan"
   control_korea: "The Line of Advantage"
   polish_revolutionaries: "Polish-Lithuanian Revolutionaries"
   boer_republic_founded: "Boer Republic Founded"
@@ -387,6 +400,8 @@ gbr_saf_relations_tt: "Have at least Amicable relations with two South African s
  decision_africa.5.a: "South Africa is strong and free!"
  decision_africa.6.d: "The unification of South Africa is complete. The various colonial governments have been integrated into one, under the administration of [SCOPE.sCountry('south_africa_country').GetName] and with the enthusiastic approval of [ROOT.GetCountry.GetName]."
 
+russia_welfare: "Emancipated Serfs"
+protectorates_exist: "No georgian protectorates remain"
 entre_rios_leader: "Justo José"
 antonio_gutiérrez: "Antonio Gutiérrez"
 

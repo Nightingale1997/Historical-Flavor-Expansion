@@ -106,6 +106,12 @@
 			type = protectorate
 		}		
 	}
+	c:JAP = {
+		create_diplomatic_pact = {
+			country = c:AIN
+			type = tributary
+		}
+	}
 	c:EGY = {
 		create_diplomatic_pact = {
 			country = c:JAB
