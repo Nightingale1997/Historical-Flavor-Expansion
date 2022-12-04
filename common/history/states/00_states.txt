@@ -5391,7 +5391,6 @@ STATES = {
 		create_state = {
 			country = c:CAU
 			owned_provinces = { x805000 xAB3AF1 xDC0812 x005000 x16A02D x30DF60 x3161E0 }
-			state_type = unincorporated
 		}
 		
 		add_homeland = armenian
@@ -5402,7 +5401,6 @@ STATES = {
 		create_state = {
 			country = c:CAU
 			owned_provinces = { x008FBF x493F0B x6EB08E x0E8C3E x80D041 xDFB2B0 x9195D4 x2F7A57 x809040 x747318 x0E70E4 xB7DDE5 x0B74ED xEE1A87 x404F5B x8090BF xE7B07C x0467D5 x007060 xBFD159 x69FE0D xD77566 }
-			state_type = unincorporated
 		}
 		
 		add_homeland = armenian

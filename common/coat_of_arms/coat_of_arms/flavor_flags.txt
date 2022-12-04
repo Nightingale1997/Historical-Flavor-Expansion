@@ -65,6 +65,43 @@ BOJ = {
 	
 }
 
+CAU = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow_light"
+	color2 = "black"
+	color3 = "red_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+	}
+}
+
+
+MIN = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = color2
+		color2 = color2
+	}
+}
+
+SVA = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+}
+
+ABK = {
+	pattern = "pattern_solid.tga"
+	color1 = "green_light"
+}
+
 QOC = { 
 	pattern = "pattern_solid.tga"
 	color1 = "red"

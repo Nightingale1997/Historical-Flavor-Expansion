@@ -20,6 +20,18 @@
 			country = c:CAU
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:ABK
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:MIN
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SVA
+			type = protectorate
+		}
 	}
 	c:ARG = {
 		create_diplomatic_pact = {

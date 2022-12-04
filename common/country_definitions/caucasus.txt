@@ -1,5 +1,5 @@
 ﻿CAU = {
-	color = { 100 150 20 }
+	color = { 97  98  195 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { georgian armenian azerbaijani}
@@ -8,19 +8,19 @@
 }
 
 SVA = {
-	color = { 100 150 20 }
+	color = { 56 143 53 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { georgian armenian azerbaijani}
+	cultures = { georgian }
 	religion = orthodox
 	capital = STATE_GREATER_CAUCASUS
 }
 
 MIN = {
-	color = { 100 150 20 }
+	color = { 83 65 167 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { georgian armenian azerbaijani}
+	cultures = { georgian }
 	religion = orthodox
 	capital = STATE_GREATER_CAUCASUS
 }
@@ -29,7 +29,7 @@ ABK = {
 	color = { 100 150 20 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { georgian armenian azerbaijani}
+	cultures = { georgian }
 	religion = orthodox
 	capital = STATE_GREATER_CAUCASUS
 }

@@ -165,6 +165,14 @@
   journal_flavor_peru.1.a: "The north will not be subservient to Bolivia!"
   journal_flavor_peru.1.b: "This is acceptable."
 
+  journal_flavor_caucasia.1.t: "End of the Caucasian Viceroyalty"
+  journal_flavor_caucasia.1.d: "Our country splinters without [SCOPE.sCountry('rus_scope').GetAdjectiveNoFlag] intervention."
+  journal_flavor_caucasia.1.f: "Originally formed from the conquered territories of Georgia, the [ROOT.GetCountry.GetNameNoFlag] had grown to include large swatches of Armenian and Azerbaijani land. Without outside pressure from [SCOPE.sCountry('rus_scope').GetNameNoFlag], the status quo cannot hold. It seems that [ROOT.GetCountry.GetRuler.GetFullName] will be the last ruler of a unified caucasia."
+  journal_flavor_caucasia.1.a: "Georgia shall eclipse the past."
+  journal_flavor_caucasia.1.b: "The future is [SCOPE.sCountry('arm_scope').GetAdjectiveNoFlag]."
+  journal_flavor_caucasia.1.c: "We must look to [SCOPE.sCountry('azb_scope').GetNameNoFlag] for guidance."
+
+
 
 
 
@@ -263,7 +271,13 @@ caucasian_war: "Caucasian War"
     CHA: "Chahar"
     CHA_ADJ: "Chahari" 
     CAU: "Caucasia"
-    CAU_ADJ: "Caucasian"         
+    CAU_ADJ: "Caucasian" 
+    MIN: "Mingrelia"
+    MIN_ADJ: "Mingrelian" 
+    ABK: "Abkhazia"
+    ABK_ADJ: "Abkhazian" 
+    SVA: "Svaneti"
+    SVA_ADJ: "Svaneti"         
     ARG:0 "Argentine Confederation"
     STATE_STELLALAND: "Stellaland"
     STATE_NATALIA: "Natal"
@@ -366,6 +380,8 @@ gbr_saf_relations_tt: "Have at least Amicable relations with two South African s
 entre_rios_leader: "Justo José"
 antonio_gutiérrez: "Antonio Gutiérrez"
 
+Georg_Andreas: "Georg Andreas"
+von_Rosen: "von Rosen"
 agustI_n: "Agustín"
 gamarra: "Gamarra"
 antonio: "Antonio"
@@ -375,4 +391,4 @@ ballivian: "Ballivian"
 ideology_taiping_moralist: "Taiping Moralism"
 RULER_TITLE_HEAVENLY_KING: "Heavenly King"
 RULER_TITLE_HEAVENLY_QUEEN: "Heavenly Queen"
-
+RULER_TITLE_VICEROY: "Viceroy"
