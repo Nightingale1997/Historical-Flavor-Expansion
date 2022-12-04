@@ -67,6 +67,16 @@
   je_unite_caucasia_reason: "During the course of the 19th century, Russia absorbed many smaller states under its protection, including the small georgian kingdoms of the caucasus."
   je_unite_caucasia_status: "Centralize the state and establish firm control of the caucasus."
 
+  je_absorb_governorates: "Absorb the Governorates"
+  je_absorb_governorates_reason: "During the course of the 19th century, Russia absorbed many smaller states under its protection, including the small georgian kingdoms of the caucasus."
+  je_absorb_governorates_status: "Dissolve the governorates in favor of direct rule from Moscow."
+
+  je_russia_finland: "The Future of Finland"
+  je_russia_finland_reason: ""
+  je_russia_finland_status: "Integrate finland into the imperial bureaucracy."
+
+
+
   je_deseret: "The State of Deseret"
   je_deseret_reason: "Test"
   je_deseret_status: "Mormon pioneers are looking for a new home."

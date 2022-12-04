@@ -76,9 +76,17 @@ je_unite_caucasia = {
 		}
 	}
 
+	on_fail = {
+		add_journal_entry = {
+			type = je_absorb_governorates
+		}
+		 
+	}
 
 	on_complete = {
-
+		add_journal_entry = {
+			type = je_absorb_governorates
+		}
 		c:CAU = {
 			if = {
 				limit = {
@@ -155,79 +163,116 @@ je_absorb_governorates = {
 
 	fail = {
 		NOR = {
-			c:SVA = { is_subject_of = c:RUS } 
-			c:MIN = { is_subject_of = c:RUS } 
-			c:ABK = { is_subject_of = c:RUS } 
+			c:CAU = { is_subject_of = c:RUS } 
+			c:LAT = { is_subject_of = c:RUS } 
+			c:EST = { is_subject_of = c:RUS }
+			c:LIV = { is_subject_of = c:RUS }
+			c:TRH = { is_subject_of = c:RUS }    
 		}
 	}
 
 	on_complete = {
-		c:CAU = {
-			if = {
-				limit = {
-					AND = { 
-						c:CAU = { is_subject_of = c:RUS } 
-						c:MIN = { is_subject_of = c:RUS }
-					}
-
-				}
-				annex = c:MIN
+		if = {
+			limit = {
+				c:CAU = { is_subject_of = c:RUS }
 			}
-			else_if = {
-				limit = {
-						c:MIN = { is_subject_of = c:RUS }
-				}
-				c:RUS = {
-				annex = c:MIN
-				}
+			annex = c:CAU
+		}
+		if = {
+			limit = {
+				c:LAT = { is_subject_of = c:RUS }
 			}
-			if = {
-				limit = {
-						AND = { 
-						c:CAU = { is_subject_of = c:RUS } 
-						c:ABK = { is_subject_of = c:RUS }
-						}
-				}
-				annex = c:ABK
+			annex = c:LAT
+		}
+		if = {
+			limit = {
+				c:EST = { is_subject_of = c:RUS }
 			}
-			else_if = {
-				limit = {
-						c:ABK = { is_subject_of = c:RUS }
-				}
-				c:RUS = {
-					annex = c:ABK
-				}
+			annex = c:EST
+		}
+		if = {
+			limit = {
+				c:LIV = { is_subject_of = c:RUS }
 			}
-			if = {
-				limit = {
-						AND = { 
-						c:CAU = { is_subject_of = c:RUS } 
-						c:SVA = { is_subject_of = c:RUS }
-						}
-				}
-				annex = c:SVA
+			annex = c:LIV
+		} 
+		if = {
+			limit = {
+				c:TRH = { is_subject_of = c:RUS }
 			}
-			else_if = {
-				limit = {
-						c:SVA = { is_subject_of = c:RUS }
-				}
-				c:RUS = {
-				annex = c:SVA
-				}
-			}
-
+			annex = c:TRH
 		}
 	}
 
 	status_desc = {
 		first_valid = {
 			triggered_desc = {
-				desc = je_unite_caucasia_status
+				desc = je_absorb_governorates_status
 			}
 		}
 	}
 	weight = 100
 }
+
+  je_russia_finland = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	complete = {
+
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	fail = {
+		NOT = {
+			c:FIN = { is_subject_of = c:RUS }  
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = { 
+		
+				}
+				change_variable = {
+					name = finland_friend_var
+					add = 1
+				}
+			}
+		}
+	}
+
+	on_complete = {
+        c:RUS = {
+            create_diplomatic_pact = {
+                    country = c:FIN
+                    type = dominion
+            }
+        }
+	}
+
+		current_value = {
+		value = var:finland_friend_var
+	}
+
+	progressbar = yes
+
+	goal_add_value = {
+		add = 10
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_russia_finland_status
+			}
+		}
+	}
+	weight = 100
+}
+
 
 
 je_january_uprising = {
