@@ -11,6 +11,96 @@ LAT_subject = {
 	}
 }
 
+CAU = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "black"
+		color2 = "red"
+	}
+
+	colored_emblem = {
+        texture = "ce_eagle_doubleheaded_russia_claws.dds"
+        color1 = "yellow_dark"
+		 color2 = "black"
+		 color3 = "black"
+        instance = { scale = { 0.8 0.8 } }
+    }
+	
+    colored_emblem = {
+		texture = "ce_eagle_doubleheaded_base.dds"
+		color1 = "yellow"
+		color2 = "black"
+		color3 = "yellow_dark"		
+		color4 = "yellow_dark"
+		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }
+	}		
+}
+
+MIN = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	color2 = "red_light"
+
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = color2
+		color2 = color2
+	}
+}
+
+KHZ = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+
+	colored_emblem = {
+        texture = "ce_shahada_02.dds"
+        color1 = "black"
+        instance = { scale = { 0.8 0.8 } }
+    }
+}
+
+ARB = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "black"
+	}
+
+	colored_emblem = {
+        texture = "ce_shahada_02.dds"
+        color1 = "black"
+        instance = { scale = { 0.8 0.8 } }
+    }
+}
+
+MUK = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_bicolor_right.dds"
+		color1 = "red"
+	}
+
+	colored_emblem = {
+        texture = "ce_star_16.dds"
+        color1 = "yellow"
+        instance = { scale = { 0.8 0.8 } }
+    }
+}
+
 BOK = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -205,6 +295,62 @@ MIL = {
 	
 }
 
+HAK = {
+pattern = "pattern_solid.tga"
+	color1 = yellow
+	color2 = black
+
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_large.dds"
+		color1 = black
+		color2 = black
+		color3 = black
+	}
+
+	colored_emblem = {
+        texture = "ce_star_16.dds"
+        color1 = "yellow"
+        instance = { scale = { 0.6 0.6 } }
+    }
+}
+
+BAN = {
+pattern = "pattern_solid.tga"
+	color1 = white
+	color2 = blue_light
+
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_large.dds"
+		color1 = blue_light
+		color2 = blue_light
+		color3 = blue_light
+	}
+
+	colored_emblem = {
+        texture = "ce_star_16.dds"
+        color1 = "white"
+        instance = { scale = { 0.6 0.6 } }
+    }
+}
+
+SHA = { 
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+}
+
+JEL = { 
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+}
+
+BIT = { 
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+}
+
 KHA = { 
 	pattern = "pattern_solid.tga"
 	color1 = "green_light"
@@ -307,6 +453,38 @@ BAA = {
 		color2 = "red"
 		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
 	}
+}
+
+KOC = {
+	pattern = "pattern_solid.tga"
+	color1 = green
+	color2 = white
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal_fifth.dds"
+		color1 = color2
+		color2 = red
+	}
+}
+
+DOJ = {
+	pattern = "pattern_solid.tga"
+	color1 = "green_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_thick.dds"
+		color1 = "yellow"
+		color2 = "green_light"
+	}
+
+	colored_emblem = {
+        texture = "ce_star_12.dds"
+        color1 = "red"
+        instance = { scale = { 0.7 0.7 } }
+    }
+}
+		
+    
 }
 
 ANT = {

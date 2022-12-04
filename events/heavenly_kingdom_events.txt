@@ -660,6 +660,34 @@ heavenly.6 = {
 					}
 				}
 
+				create_character = {
+					first_name = "Feng"
+					last_name = "Yunshan"
+					ig_general = yes
+					culture = cu:hakka
+					birth_date = 1815.1.1
+				
+					interest_group = ig_devout 
+					traits = {
+							pious
+							surveyor
+					}
+				}
+
+				create_character = {
+					first_name = "Feng"
+					last_name = "Yunshan"
+					ig_general = yes
+					culture = cu:hakka
+					birth_date = 1815.1.1
+				
+					interest_group = ig_devout 
+					traits = {
+							pious
+							surveyor
+					}
+				}
+
 
 	}
 }
