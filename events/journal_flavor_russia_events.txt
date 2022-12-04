@@ -28,8 +28,12 @@ journal_flavor_russia.1 = {
 
 	
 	immediate = {
-		random_scope_state = {
+		random_state = {
 			limit = {
+				OR = {
+					owner = { c:RUS = THIS }
+					owner = { is_subject_of = c:RUS	}
+				}
 		        state_region = {
                  OR = {
                     	is_homeland = cu:uzbek
@@ -73,9 +77,12 @@ journal_flavor_russia.1 = {
 		custom_tooltip = journal_flavor_russia.1.a.tt
 		default_option = yes
 		
-			every_scope_state = {
+			every_state = {
 				limit = {
-					
+				OR = {
+					owner = { c:RUS = THIS }
+					owner = { is_subject_of = c:RUS	}
+				}
 				state_region = {
                  OR = {
                     	is_homeland = cu:uzbek
@@ -110,8 +117,12 @@ journal_flavor_russia.1 = {
     	option = {
 		name = journal_flavor_russia.1.b
 		custom_tooltip = journal_flavor_russia.1.b.tt
-			every_scope_state = {
+			every_state = {
 				limit = {
+				OR = {
+					owner = { c:RUS = THIS }
+					owner = { is_subject_of = c:RUS	}
+				}
 				state_region = {
                		  OR = {
                     	is_homeland = cu:uzbek

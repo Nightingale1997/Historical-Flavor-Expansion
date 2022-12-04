@@ -55,6 +55,10 @@
   je_caucasia_collapse_reason: "The Caucasian Viceroyalty has grown to encompass many cultures and religions. Without outside pressure, we would require great reform to stay intact."
   je_caucasia_collapse_status: "Independence risks splitting us apart."
 
+  je_livonia_partition: "Risk of Partition"
+  je_livonia_partition_reason: "Livonian culture is slowly dying out, and our country is mostly inhabited by people identifying as Latvian or Estonian. If any of our neighboring governorates gain independence, our country is likely to be reorganized and absorbed into other administrative units."
+  je_livonia_partition_status: "The independence of other baltic nations threatens us."
+
 
   je_deseret: "The State of Deseret"
   je_deseret_reason: "Test"
