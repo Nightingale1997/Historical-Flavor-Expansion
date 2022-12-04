@@ -106,7 +106,7 @@ gov_baltic_governorate = {
 	}
 }
 
-gov_baltic_governorate = {
+gov_caucasian_viceroyalty = {
     transfer_of_power = dictatorial
 
 	male_ruler = "RULER_TITLE_VICEROY"

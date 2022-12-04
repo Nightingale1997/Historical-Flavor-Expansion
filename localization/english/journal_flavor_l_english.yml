@@ -51,10 +51,13 @@
   je_reformist_victory_reason: "The Revolution of the Reforms was a military movement in Venezuela between 7 June 1835 and 1 March 1836, against the government of José María Vargas, the conservative Congress and the influence of José Antonio Páez."
   je_reformist_victory_status: "Topple the conservative government of Venezuela."
 
+  je_caucasia_collapse: "Fragile Unity"
+  je_caucasia_collapse_reason: "The Caucasian Viceroyalty has grown to encompass many cultures and religions. Without outside pressure, we would require great reform to stay intact."
+  je_caucasia_collapse_status: "Independence risks splitting us apart."
 
 
   je_deseret: "The State of Deseret"
-  je_deserete_reason: "Test"
+  je_deseret_reason: "Test"
   je_deseret_status: "Mormon pioneers are looking for a new home."
 
 
@@ -171,6 +174,7 @@
   journal_flavor_caucasia.1.a: "Georgia shall eclipse the past."
   journal_flavor_caucasia.1.b: "The future is [SCOPE.sCountry('arm_scope').GetAdjectiveNoFlag]."
   journal_flavor_caucasia.1.c: "We must look to [SCOPE.sCountry('azb_scope').GetNameNoFlag] for guidance."
+
 
 
 
@@ -335,6 +339,8 @@ caucasian_war: "Caucasian War"
     CAR_FLAVOR_TEXT: "The First Carlist War was a civil war in Spain from 1833 to 1840, the first of three Carlist Wars. It was fought between two factions over the succession to the throne and the nature of the Spanish monarchy: the conservative and devolutionist supporters of the late king's brother, Carlos de Borbón (or Carlos V), became known as Carlists (carlistas), while the progressive and centralist supporters of the regent, Maria Christina, acting for Isabella II of Spain, were called Liberals (liberales), cristinos or isabelinos."
     XHO_FLAVOR_TEXT: "The earlier Xhosa Wars did not quell British-Xhosa tension in the Cape's eastern border at the Keiskamma River. Insecurity persisted because the Xhosa remained expelled from territory (especially the so-called "Ceded Territories") that was then settled by Europeans and other African peoples. They were also subjected to territorial expansions from other Africans that were themselves under pressure from the expanding Zulu Kingdom. Nevertheless, the frontier region was seeing increasing amounts of admixture between Europeans, Khoikhoi, and Xhosa living and trading throughout the frontier region. The vacillation by the Cape Government's policy towards the return of the Xhosa to areas they previously inhabited did not dissipate Xhosa frustration toward the inability to provide for themselves, and led to to further hostilities."
 
+gov_caucasian_viceroyalty: "Russian Viceroyalty"
+gov_caucasian_viceroyalty_desc: "This is a russian viceroyalty, an administrative unit of the Russian Empire with limited autonomy similar to a governorate."
 gov_baltic_governorate: "Baltic Governorate"
 gov_baltic_governorate_desc: "This is a baltic governorate, an administrative unit of the Russian Empire with limited autonomy set up in the territories of Swedish Estonia, Swedish Livonia (1721) and, afterwards, of the Duchy of Courland and Semigallia (1795)."
 gov_governor_generalship: "Governor-Generalship"

@@ -2,7 +2,7 @@
 	color = { 97  98  195 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { georgian armenian azerbaijani}
+	cultures = { georgian }
 	religion = orthodox
 	capital = STATE_GREATER_CAUCASUS
 }

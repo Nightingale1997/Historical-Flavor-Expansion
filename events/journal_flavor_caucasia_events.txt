@@ -28,8 +28,7 @@ journal_flavor_caucasia.1 = {
 		c:RUS = {
 			save_scope_as = rus_scope
 		}
-        remove_primary_culture = cu:armenian
-        remove_primary_culture = cu:azerbaijani
+
 		random_scope_state = {
 			limit = {
 				state_region = s:STATE_AZERBAIJAN

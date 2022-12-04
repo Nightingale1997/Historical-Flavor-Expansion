@@ -13,6 +13,16 @@ je_caucasia_collapse = {
 
     fail = {
             OR = {
+            AND = {
+                cu:armenian = {
+				    NOT = { culture_is_discriminated_in = ROOT }
+			    }
+                cu:azerbaijani = {
+				    NOT = { culture_is_discriminated_in = ROOT }
+			    }
+                has_law = law_type:law_total_separation
+            }
+  
             NOT = { owns_entire_state_region = STATE_AZERBAIJAN }
             NOT = { owns_entire_state_region = STATE_ARMENIA } 
             }
