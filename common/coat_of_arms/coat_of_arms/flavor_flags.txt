@@ -522,7 +522,7 @@ DOJ = {
 }
 		
     
-}
+
 
 ANT = {
 	pattern = "pattern_solid.tga"
