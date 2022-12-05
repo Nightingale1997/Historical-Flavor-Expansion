@@ -4,7 +4,8 @@
   "version": "",
   "supported_game_version": "",
   "short_description": "",
-  "tags": [],
+  "picture": "thumbnail.png",
+  "tags": [""],
   "relationships": [],
   "game_custom_data": {
     "multiplayer_synchronized": true
