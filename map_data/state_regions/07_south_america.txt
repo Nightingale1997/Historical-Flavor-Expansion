@@ -49,6 +49,10 @@ STATE_GUAYANA = {
         type = "bg_rubber"
         undiscovered_amount = 8
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3062
 }
 
@@ -100,6 +104,10 @@ STATE_MIRANDA = {
         type = "bg_rubber"
         undiscovered_amount = 4
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 60
+    }
     naval_exit_id = 3025
 }
 
@@ -125,6 +133,10 @@ STATE_BOLIVAR = {
         type = "bg_rubber"
         undiscovered_amount = 4
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
+    }
     naval_exit_id = 3025
 }
 
@@ -145,6 +157,10 @@ STATE_ANTIOQUIA = {
         bg_iron_mining = 36
         bg_logging = 13
         bg_fishing = 8
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
     }
     naval_exit_id = 3025
 }
@@ -229,6 +245,10 @@ STATE_PASTAZA = {
         type = "bg_rubber"
         undiscovered_amount = 8
         discovered_amount = 1
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
     }
 }
 
@@ -364,6 +384,10 @@ STATE_CAJAMARCA = {
         depleted_type = "bg_gold_mining"
         undiscovered_amount = 4
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3024
 }
 
@@ -449,6 +473,10 @@ STATE_URUGUAY = {
         bg_logging = 9
         bg_fishing = 6
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3065
 }
 
@@ -484,6 +512,10 @@ STATE_ALTO_PARAGUAY = {
     capped_resources = {
         bg_logging = 11
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
 }
 
 STATE_BAJO_PARAGUAY = {
@@ -500,6 +532,10 @@ STATE_BAJO_PARAGUAY = {
     capped_resources = {
         bg_iron_mining = 15
         bg_logging = 14
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
     }
 }
 
@@ -537,6 +573,10 @@ STATE_PATAGONIA = {
         bg_coal_mining = 32
         bg_sulfur_mining = 20
         bg_fishing = 7
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
     }
     naval_exit_id = 3066
 }
@@ -605,6 +645,10 @@ STATE_ENTRE_RIOS= {
         bg_logging = 6
         bg_fishing = 2
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3065
 }
 
@@ -621,6 +665,10 @@ STATE_CORRIENTES = {
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 15
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
     }
 }
 
@@ -729,6 +777,10 @@ STATE_ARAUCANIA = {
         depleted_type = "bg_gold_mining"
         undiscovered_amount = 4
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3151
 }
 
@@ -772,6 +824,10 @@ STATE_PARA = {
     resource = {
         type = "bg_rubber"
         discovered_amount = 22
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
     }
     naval_exit_id = 3062
 }
@@ -818,6 +874,10 @@ STATE_AMAZONAS = {
     resource = {
         type = "bg_rubber"
         discovered_amount = 18
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
     }
 }
 
@@ -881,6 +941,10 @@ STATE_MATO_GROSSO = {
         type = "bg_rubber"
         discovered_amount = 26
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
 }
 
 STATE_RIO_GRANDE_DO_SUL = {
@@ -899,6 +963,10 @@ STATE_RIO_GRANDE_DO_SUL = {
         bg_coal_mining = 28
         bg_logging = 11
         bg_fishing = 6
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
     }
     naval_exit_id = 3064
 }
@@ -964,6 +1032,10 @@ STATE_SAO_PAULO = {
         type = "bg_rubber"
         discovered_amount = 10
     }
+    resource = {
+    type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3064
 }
 
@@ -991,6 +1063,10 @@ STATE_MINAS_GERAIS = {
     resource = {
         type = "bg_rubber"
         discovered_amount = 7
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
     }
 }
 

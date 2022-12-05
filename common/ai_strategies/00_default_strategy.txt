@@ -187,8 +187,7 @@ ai_strategy_default = {
 	
 	# Bravery multiplies the AI's estimation of its own strength, so at bravery 2 it believes its forces to be twice as strong as they actually are
 	# The AI wants to have at least parity in what it believes its own forces to be and what the enemy forces are, so at bravery 2 it's OK with only having 50% of the enemy strength
-	
-	bravery = { 
+	bravery = {
 		value = 1
 		
 		if = {
@@ -293,6 +292,18 @@ ai_strategy_default = {
 		#	add = 1
 	#	}		
 
+			#North Peru
+
+		if = {
+			limit = {
+				has_journal_entry = je_peru_unification
+				scope:target_country = {
+					has_journal_entry = je_peru_bolivia
+				}
+			}
+			add = 1
+		}
+
 		# Ethiopian Thunderdome
 		if = {
 			limit = {
@@ -302,18 +313,6 @@ ai_strategy_default = {
 				}
 			}
 			add = 0.5
-		}
-
-		#North Peru
-
-		if = {
-			limit = {
-				has_journal_entry = je_peru_unification
-				scope:target_country = {
-					has_journal_entry = je_peru_bolivia
-				}
-			}
-			add = 1000
 		}
 
 		# Warlord China Thunderdome
@@ -330,6 +329,8 @@ ai_strategy_default = {
 	}
 	
 	aggression = {
+		value = 0
+		
 		if = { #NFM ADDED
 			limit = {
   				ruler = {has_ideology = ideology_pacifist}
@@ -344,7 +345,7 @@ ai_strategy_default = {
 			add = -100
 		}
 
-		value = 0
+		
 
 		# Higher aggression against pariah countries
 		if = {
@@ -695,6 +696,17 @@ ai_strategy_default = {
 	}
 
 	strategic_region_scores = {
+		region_arabic = {
+			if = {
+				limit = { # Great Powers care about Egyptian-Ottoman conflict in Arabia early game
+					exists = c:TUR
+					c:TUR = { has_journal_entry = je_sick_man_syria }
+					country_rank = rank_value:great_power
+					navy_size >= 50
+				}
+				add = 1000
+			}
+		}
 		region_japan = {	
 			if = {
 				limit = { # Great Powers should try to open Japan
@@ -787,13 +799,13 @@ ai_strategy_default = {
 					}		
 				}
 				add = 200
-			}		
+			}	
 			if = {
 				limit = {
 					has_variable = monroe_doctrine	
 				}
 				add = -300
-			}
+			}	
 		}
 		region_congo = {
 			if = {
@@ -807,13 +819,13 @@ ai_strategy_default = {
 					}		
 				}
 				add = 200
-			}	
+			}
 			if = {
 				limit = {
 					has_variable = monroe_doctrine	
 				}
 				add = -300
-			}	
+			}		
 		}
 		region_southern_africa = {
 			if = {
@@ -827,13 +839,13 @@ ai_strategy_default = {
 					}		
 				}
 				add = 200
-			}		
+			}
 			if = {
 				limit = {
 					has_variable = monroe_doctrine	
 				}
 				add = -300
-			}
+			}		
 		}
 		region_zanj = {
 			if = {
@@ -847,15 +859,36 @@ ai_strategy_default = {
 					}		
 				}
 				add = 200
-			}		
+			}	
 			if = {
 				limit = {
 					has_variable = monroe_doctrine	
 				}
 				add = -300
-			}
+			}	
 		}
 		region_north_germany = {
+			if = {
+				limit = {
+					country_is_in_europe = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}
+			if = {
+				limit = {
+					has_journal_entry = je_german_unification
+				}
+				add = 1000
+			}	
+			if = {
+				limit = {
+					has_variable = monroe_doctrine	
+				}
+				add = -300
+			}		
+		}
+		region_south_germany = {
 			if = {
 				limit = {
 					country_is_in_europe = yes
@@ -874,28 +907,7 @@ ai_strategy_default = {
 					has_variable = monroe_doctrine	
 				}
 				add = -300
-			}
-		}
-		region_south_germany = {
-			if = {
-				limit = {
-					country_is_in_europe = yes
-					country_rank >= rank_value:great_power
-				}
-				add = 100
-			}
-			if = {
-				limit = {
-					has_journal_entry = je_german_unification
-				}
-				add = 1000
-			}		
-			if = {
-				limit = {
-					has_variable = monroe_doctrine	
-				}
-				add = -300
-			}		
+			}	
 		}		
 		region_italy = {
 			if = {
@@ -955,7 +967,6 @@ ai_strategy_default = {
 					has_variable = monroe_doctrine	
 				}
 				add = -300
-			}
 		}
 		region_rhine = {
 			if = {
@@ -985,7 +996,7 @@ ai_strategy_default = {
 				limit = {
 					has_variable = monroe_doctrine	
 				}
-				add = 100
+				add = 1000
 			}			
 		}
 		region_great_plains = {
@@ -1462,7 +1473,7 @@ ai_strategy_default = {
 					NOT = { is_country_type = unrecognized }
 					scope:target_country = { NOT = { is_country_type = unrecognized } }
 				}
-				add = 10
+				add = 10	
 			}		
 	
 			if = {
@@ -1472,6 +1483,11 @@ ai_strategy_default = {
 					scope:target_country = { is_country_type = unrecognized }
 				}
 				add = 50
+				
+				if = {
+					limit = { has_technology_researched = civilizing_mission }
+					add = 50
+				}					
 			}			
 			
 			if = { 
@@ -1730,11 +1746,15 @@ ai_strategy_default = {
 			
 			if = {
 				limit = {
-					scope:target_country = { is_subject_of = root }	
+					scope:target_country = { 
+						is_subject_of = root
+						relations:root < relations_threshold:cordial 
+						scope:target_country.country_rank < rank_value:major_power
+					}
 				}
-				add = 100
-			}			
-			
+				add = 50
+			}	
+
 			if = {
 				limit = {
 					can_reach_target_country = yes
@@ -1744,6 +1764,11 @@ ai_strategy_default = {
 					scope:target_country = { NOT = { is_subject_of = root }	}
 				}
 				add = 25
+				
+				if = {
+					limit = { has_technology_researched = civilizing_mission }
+					add = 25
+				}					
 			}			
 			
 			if = {
@@ -1916,7 +1941,7 @@ ai_strategy_default = {
 
 					if = {
 						limit = { 
-							NOT = { has_strategic_adjacency = scope:target_state } 
+							NOT = { has_strategic_land_adjacency = scope:target_state } 
 							scope:target_state = { has_port = no }
 						}
 						multiply = 0.5
@@ -1924,17 +1949,24 @@ ai_strategy_default = {
 					
 					if = {
 						limit = {
+							has_strategic_land_adjacency = scope:target_country
+							NOT = { has_strategic_land_adjacency = scope:target_state }
+						}
+						multiply = 0.1
+					}					
+					else_if = {
+						limit = {
 							is_adjacent = scope:target_country
 							NOT = { is_adjacent = scope:target_state }
 						}
 						multiply = 0.5
-					}				
+					}															
 				
 					if = {
 						limit = {
 							scope:target_state = { is_homeland_of_country_cultures = root }
 						}
-						multiply = 1.25
+						multiply = 1.5
 					}	
 				}
 			}	
@@ -1965,13 +1997,29 @@ ai_strategy_default = {
 						divide = 100000
 						max = 10						
 					}
+					
+					if = {
+						limit = { 
+							NOT = { has_strategic_land_adjacency = scope:target_state } 
+							scope:target_state = { has_port = no }
+						}
+						multiply = 0.5
+					}									
 
 					if = {
 						limit = {
+							has_strategic_land_adjacency = scope:target_country
+							NOT = { has_strategic_land_adjacency = scope:target_state }
+						}
+						multiply = 0.1
+					}					
+					else_if = {
+						limit = {
+							is_adjacent = scope:target_country
 							NOT = { is_adjacent = scope:target_state }
 						}
 						multiply = 0.5
-					}	
+					}							
 
 					if = {
 						limit = {
@@ -2046,7 +2094,6 @@ ai_strategy_default = {
 		#			}
 		#		}
 		#		add = 50 #NFM TURNED OFF FOR EVENT WAR
-			}
 
 			if = {
 				limit = {
