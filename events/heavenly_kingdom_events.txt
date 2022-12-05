@@ -637,7 +637,81 @@ heavenly.6 = {
 	trigger = {
 		# triggered by journal entry
 	}
+immediate = {
+				create_character = {
+					first_name = "Feng"
+					last_name = "Yunshan"
+					is_general = yes
+					culture = cu:hakka
+					birth_date = 1815.1.1
+				
+					interest_group = ig_devout 
+					traits = {
+							pious
+							surveyor
+					}
+				}
 
+				create_character = {
+					first_name = "Yang"
+					last_name = "Xiuqing"
+					is_general = yes
+					culture = cu:yue
+					birth_date = 1821.09.23
+				
+					interest_group = ig_armed_forces 
+					traits = {
+							ambitious
+							basic_offensive_planner
+							tactful
+
+					}
+				}
+
+				create_character = {
+					first_name = "Xiao"
+					last_name = "Chaogui"
+					is_general = yes
+					culture = cu:yue
+					birth_date = 1821.09.23
+				
+					interest_group = ig_devout 
+					traits = {
+							pious
+							charismatic							
+					}
+				}
+
+				create_character = {
+					first_name = "Wei"
+					last_name = "Chaogui"
+					is_general = yes
+					culture = cu:yue
+					birth_date = 1823.1.1
+				
+					interest_group = ig_armed_forces  
+					traits = {
+							meticulous
+							stalwart_defender							
+					}
+				}
+
+				create_character = {
+					first_name = "Shi"
+					last_name = "Dakai"
+					is_general = yes
+					culture = cu:yue
+					birth_date = 1831.04.1
+					interest_group = ig_devout § 
+					traits = {
+							direct
+							brave	
+							persistent						
+
+						}
+				}
+
+			}
 	option = { # mass re-conversions
 		name = heavenly.6.a
 		default_option = yes
@@ -660,82 +734,7 @@ heavenly.6 = {
 					}
 				}
 
-				create_character = {
-					first_name = "Feng"
-					last_name = "Yunshan"
-					ig_general = yes
-					culture = cu:hakka
-					birth_date = 1815.1.1
 				
-					interest_group = ig_devout 
-					traits = {
-							pious
-							surveyor
-					}
-				}
-
-				create_character = {
-					first_name = "Yang "
-					last_name = "Xiuqing"
-					ig_general = yes
-					culture = cu:yue
-					birth_date = 1821.09.23
-				
-					interest_group = ig_armed_forces 
-					traits = {
-							ambitious
-							offensive planner
-							tactful
-
-					}
-				}
-
-				create_character = {
-					first_name = "Xiao"
-					last_name = "Chaogui"
-					ig_general = yes
-					culture = cu:yue
-					birth_date = 1821.09.23
-				
-					interest_group = ig_devout 
-					traits = {
-							pious
-							charismatic							
-					}
-				}
-
-				create_character = {
-					first_name = "Wei"
-					last_name = "Chaogui"
-					ig_general = yes
-					culture = cu:yue
-					birth_date = 1823.1.1
-				
-					interest_group = ig_armed_forces  
-					traits = {
-							meticulous
-							defender							
-
-					}
-				}
-
-				create_character = {
-					first_name = "Shi"
-					last_name = "Dakai"
-					ig_general = yes
-					culture = cu:yue
-					birth_date = 1831.04.1
-				
-					interest_group = ig_devout  
-					traits = {
-							direkt
-							brave	
-							famous Commander
-							offensive planner
-							persistent						
-
-					}
-				}
 
 	}
 }
