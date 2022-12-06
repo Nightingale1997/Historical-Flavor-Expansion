@@ -22,13 +22,10 @@
                 NOT ={ 
 					c:AIN = {
 						any_scope_state = {
-						state_region = s:STATE_HOKKAIDO
+							state_region = s:STATE_HOKKAIDO
+						}
 					}
-				}
-
-		
-				
-            
+				}	
     	}
 			c:AIN = {
 				country_rank > rank_value:minor_power
