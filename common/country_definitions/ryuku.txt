@@ -1,0 +1,11 @@
+﻿RYU = {
+	color = { 137 106 217 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { ryukyan }
+	
+	capital = STATE_RYUKYU_ISLANDS
+}

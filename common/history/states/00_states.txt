@@ -5902,10 +5902,14 @@ STATES = {
 	s:STATE_RYUKYU_ISLANDS = {
 		create_state = {
 			country = c:JAP
-			owned_provinces = { xf0f061 xf0d080 }
+			owned_provinces = { xf0d080 }
+		}
+		create_state = {
+			country = c:RYU
+			owned_provinces = { xf0f061 }
 		}
 			
-		add_homeland = japanese
+		add_homeland = ryukyan
 	}
 
 

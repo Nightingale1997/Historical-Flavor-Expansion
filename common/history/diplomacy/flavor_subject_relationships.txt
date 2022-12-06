@@ -111,6 +111,10 @@
 			country = c:AIN
 			type = tributary
 		}
+		create_diplomatic_pact = {
+			country = c:RYU
+			type = tributary
+		}
 	}
 	c:EGY = {
 		create_diplomatic_pact = {
