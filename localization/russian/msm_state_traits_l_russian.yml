@@ -1,0 +1,70 @@
+﻿l_russian:
+#япония
+ state_trait_traditional_whaling:0 "Традиционный китобойный промысел"
+ state_trait_satsuma_ware:0 "Изделия из Сацумы"
+ state_trait_miike_coalfield:0 "Угольное месторождение Миике"
+ state_trait_hokutan_coalfield:0 "Hokutan Horonai"
+ state_trait_edo_rice:0 "Рисовые равнины Эдо"
+#korea
+ state_trait_jiktong_coalfield:0 "Угольное месторождение Джиктонг"
+ state_trait_komdok_leadmine:0 "Комдакский рудник"
+ state_trait_oryong_ironmine:0 "Орёнское месторождение железной руды"
+ state_trait_jangsaengpo:0 "Jangsaengpo"
+#Китай
+ state_trait_manchurian_forest:0 "Маньчжурский лес"
+ state_trait_fushun_coal:0 "Фушуньское угольное месторождение"
+ state_trait_takushan_iron:0 "Месторождения железной руды Такушань"
+#австрия
+ state_trait_bowen:0 "Бассейн Боуэн"
+ state_trait_murray_darling:0 "Бассейн Мурри-Дарлинг"
+ state_trait_bay_of_plenty_one:0 "Залив Пленти"
+#Европа
+#денмарк
+ state_trait_danish_pig:0 "Датские свиньи"
+#spain
+ state_trait_camocha:0 "Угольное месторождение Камоча"
+ state_trait_cercs:0 "Угольное месторождение Серкс"
+ state_trait_bonastre:0 "Can Bonastre"
+ state_trait_guadalquivir_river:0 "Guadalquivir"
+#австрия
+ state_trait_most_basin:0 "Самый большой бассейн"
+ state_trait_moravskeho:0 "Моравское Манчестеру"
+ state_trait_great_alfold:0 "Великий Альфёльд"
+ state_trait_delvidek:0 "Воеводина"
+#italy
+ state_trait_frescobaldi:0 "Фрескобальди"
+#франция
+ state_trait_goulaine:0 "Шато де Гулен"
+ state_trait_vin_de_bordeaux:0 "Vin De Bordeaux"
+#германия
+ state_trait_staffelter:0 "Staffelter Hof"
+#малые страны
+ state_trait_tulip:0 "Тюльпаномания"
+ state_trait_great_fishery:0 "Великая рыбалка"
+ state_trait_haarlow:0 "Nederlandsche Handel-Maatschappij"
+ state_trait_flemish_diamond:0 "Фламандский бриллиант"
+#португалия
+ state_trait_portugal_breadbasket:0 "Португальская житница"
+#англия
+ state_trait_cottonopolis:0 "Коттонполис"
+ state_trait_linenopolis:0 "Linenpolis"
+#Польша
+ state_trait_apples:0 "Польские яблоки"
+#американцы
+#США
+ state_trait_mission_grapes:0 "Миссионерский виноград"
+ state_trait_black_soil_nsa:0 "Королевский хлопок"
+ state_trait_big_thicket:0 "Большая чаща"
+ state_trait_tornado:0 "Аллея торнадо"
+ state_trait_beancity:0 "Город бобов"
+ state_trait_sonoran_desert:0 "Пустыня Соноран"
+ state_trait_steel_city:0 "Стальной город"
+
+#средний восток
+state_trait_mocha:0 "Арабский мокко"
+
+#любой
+ state_trait_taiga:0 "Тайга"
+ state_trait_arctic:0 "Арктическая погода"
+ state_trait_mollisol:0 "Моллисоловая почва"
+ state_trait_chernozem:0 "Чернозём"
