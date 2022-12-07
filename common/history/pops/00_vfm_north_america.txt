@@ -55,6 +55,110 @@ POPS = {
 			}
 		}
 	}
+	s:STATE_MISSOURI = {
+		region_state:USA = {
+			create_pop = {
+				culture = cajun
+				religion = catholic
+				size = 9642
+			}
+			create_pop = {
+				culture = dixie
+				size = 138666
+			}
+			create_pop = {
+				culture = north_german
+				size = 2000
+			}
+			create_pop = {
+				culture = yankee
+				size = 160204
+			}
+			create_pop = {
+				culture = yankee
+				religion = mormon
+				size = 6204
+			}
+			create_pop = {
+				culture = dixie
+				religion = catholic
+				size = 3996
+			}
+			create_pop = {
+				culture = afro_american
+				size = 1072 # 569 free in 1830, 1574 free in 1840
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_american
+				size = 38928
+			}
+			create_pop = {
+				culture = irish
+				size = 8000
+			}
+		}
+	}
+	s:STATE_OHIO = {
+		region_state:USA = {
+			create_pop = {
+				culture = yankee
+				size = 1090000
+			}
+			create_pop = {
+				culture = yankee
+				religion = mormon
+				size = 2200
+			}
+			create_pop = {
+				culture = afro_american
+				size = 16008
+			}
+			create_pop = {
+				culture = north_german
+				size = 128000
+			}
+			create_pop = {
+				culture = irish
+				size = 108004
+			}
+		}
+	}
+	s:STATE_NEW_YORK = {
+		region_state:USA = {
+			create_pop = {
+				culture = yankee
+				size = 2133000
+			}
+			create_pop = {
+				culture = yankee
+				religion = mormon
+				size = 2000
+			}
+			create_pop = {
+				culture = yankee
+				religion = jewish
+				size = 2000
+			}
+			create_pop = {
+				culture = yankee
+				religion = catholic
+				size = 39996
+			}
+			create_pop = {
+				culture = afro_american
+				size = 20004
+			}
+			create_pop = {
+				culture = irish
+				size = 16000
+			}
+			create_pop = {
+				culture = iroquoian
+				size = 8000
+			}
+		}
+	}
 	s:STATE_BRITISH_COLUMBIA = {
 		region_state:ORG = {
 			create_pop = {

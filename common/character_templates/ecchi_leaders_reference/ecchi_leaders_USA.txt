@@ -1543,8 +1543,9 @@ ecchi_usa_joseph_smith_character_template = {
     first_name = Joseph                 
     last_name = Smith                   
     culture = cu:yankee                 
-    female = no                 
-    religion = protestant #Mormon   
+    female = no         
+    ruler = yes             
+    religion = mormon   
     ideology = ideology_theocrat                    
     interest_group = ig_devout
     dna = ecchi_dna_joseph_smith
@@ -1554,11 +1555,6 @@ ecchi_usa_joseph_smith_character_template = {
         country_trigger = {                 
             OR = {
                 AND = {
-                    exists = c:USA
-                    this = c:USA
-                    NOT = { exists = c:DES }
-                }
-                AND = {
                     exists = c:DES
                     this = c:DES
                 }
@@ -1568,9 +1564,9 @@ ecchi_usa_joseph_smith_character_template = {
             is_marginal = no                    
             is_interest_group_type = ig_devout                  
         }                   
-        earliest_usage_date = 1936.1.1                  
+        earliest_usage_date = 1836.1.1                  
         latest_usage_date = 1844.6.27                   
-        chance = 75                 
+        chance = 100             
     }                   
 }                   
 
@@ -1578,8 +1574,9 @@ ecchi_usa_brigham_young_character_template = {
     first_name = Brigham                    
     last_name = Young                   
     culture = cu:yankee                 
-    female = no                 
-    religion = protestant #Mormon           
+    female = no      
+    ruler = yes           
+    religion = mormon           
     ideology = ideology_theocrat                    
     interest_group = ig_devout
     dna = ecchi_dna_brigham_young
@@ -1589,11 +1586,6 @@ ecchi_usa_brigham_young_character_template = {
         country_trigger = {                 
             OR = {
                 AND = {
-                    exists = c:USA
-                    this = c:USA
-                    NOT = { exists = c:DES }
-                }
-                AND = {
                     exists = c:DES
                     this = c:DES
                 }
@@ -1603,8 +1595,8 @@ ecchi_usa_brigham_young_character_template = {
             is_marginal = no                    
             is_interest_group_type = ig_devout                  
         }                   
-        earliest_usage_date = 1847.1.1                  
+        earliest_usage_date = 1844.6.28                  
         latest_usage_date = 1877.8.29                   
-        chance = 75                 
+        chance = 100                 
     }                   
 }                   

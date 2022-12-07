@@ -1,0 +1,75 @@
+[h1] Historical Flavor Expansion [/h1] 
+The Historical Flavor Expansion, or HFE is a mod that takes inspiration from the HPM, HFM and GFM mods for Victoria 2. 
+Our aim is to bring historical accuracy and additional flavor to a broad range of nations and make the world of victoria more fun to play in.
+
+[b]Credits[/b]: 
+
+Thanks to calvinsoul for allowing us to use Norton's Flavor Mod as part of this mod, and the VFM team for making Nortons mod possible. https://steamcommunity.com/sharedfiles/filedetails/?id=2882805006
+
+Thanks to Timur for allowing us to use parts of his Southern Africa Rework, helping us flesh out the borders of many african nations. https://steamcommunity.com/sharedfiles/filedetails/?id=2892080578 
+
+Thanks to vlax for helping us with the Russian Localization
+
+[h1] Completed Features [/h1]
+[h2] General [/h2]
+[b] New Religions [/b]
+[list] 
+[*]Reformed (Calvinist), cultures affected: Dutch, Boer, Swiss, Yankee, Dixie, Scottish
+[*]Anglican, cultures affected: English, Australian, Anglo-Canadian, Anglo-Indian (New). 
+[*]Ibadi, affects Oman. [*]Taiping Christianity, affects Heavenly Kingdom event chain and tag. 
+[*]Mormon (Early development) 
+[/list] 
+[b] Centralization laws [/b] 
+Countries can now enact centralization laws, and most have historical starting laws related to centralization. (Thanks to calvinsoul of Norton's Flavor Mod for this) 
+[h2] Japan [/h2] [list]
+[*]Ainu starts as a tributary of Japan to prevent foreign colonization 
+[*]Ryukyu starts as a tributary of Japan [*]Ending Sakoku triggers the Iwakura Mission event 
+[*]Journal Entry: Line of Advantage (Conquer Korea) 
+[*]Journal Entry: Hokkaido Development Comission (Colonize Hokkaido) [/list] 
+[h2] South Africa [/h2] 
+[list] 
+[*]Boer republics do not exist at game start, and spawn in randomly over time, weighted according to historical foundation date. 
+[*]All Boer republics are playable through event for Cape Colony, and Transvaal is playable through an event for Zoutpansberg (New Tag). 
+[*]Formable Tag: Union of South Africa [*]Journal Entry: Responsible Government (Become a Dominon) 
+[*]Decisions to unite with other british african puppets for Cape Colony and Britain 
+[*]New Tags: Klein Vrystaat, Stellaland, Xhosa, Swazi, Zoutpansberg, Rozwi, Maravi, Boina, Antankarana 
+[*]New Culture: Voortrekker, Griqua 
+[/list] 
+[h2] Russia [/h2] 
+[list] 
+[*]Baltic nations appear as governorates at game start. 
+[*]Circassia and Caucasian Imamate begins with the Caucasian war against russia. 
+[*]Caucasia now split between Caucasian Viceroyalty and minor russian protectorates 
+[*]Journal Entry: January Uprising (Historical Polish revolt) 
+[*]Journal Entry: Kisleyov's Reforms (End Serfdom) 
+[*]Journal Entry: The Great Game (Approach india, form Russian Turkestan) 
+[*] Minor Journal entries for absorbing puppets. 
+[*]New Tags: Caucasia, Estonia, Livonia, Latvia, Russian Turkestan, Mingrelia, Svaneti, Abkhazia 
+[/list] 
+[h2] Korea [/h2] [list] 
+[*]Starts with Isolationism. Hermit Kingdom government (Flavor only).
+[/list] 
+[h2] Ethiopia [/h2] [list] 
+[*]Ethiopia now allows for unification plays. 
+[*]Age of Princes now requires 3/4 ethiopian states. 
+[*]Ethiopia is called "Abyssinia" while unrecognized. 
+[/list] 
+[h2] Spain [/h2] 
+[list] 
+[*]Starts with a Carlist revolt. 
+[/list] 
+[h2] Venezuela [/h2] 
+[list] [*]Starts with Reformist revolt. 
+[/list] [h2] Bolivia/Peru [/h2] 
+[list] 
+[*]Peru is split into North Peru and South Peru upon puppeting. 
+[*]Creating the union triggers the War of the Confederation, where North peru will revolt and likely bring in Chile and/or Argentina. 
+[/list] 
+[h2] Argentina [/h2]
+[list] 
+[*]Historical Flag 
+[*]New Tags: Entre Ríos, Corrientes [/list] [h2] India [/h2] [list] [*]India formation now allows for unification play, but only for recognized nations that are not the British East India Company. [*]New Culture: Anglo-Indian (Mainly used to involve BIC in the unification play) [/list] [h2] Ottoman Empire [/h2] [list] [*]Added countless kurdish tags as protectorates at start [*]Journal Entry: Tanzimat: Kurdish Autonomy (Reform the tribes into a unified administrative unit) [/list] [h2] Persia [/h2] [list] [*]Begins as Qajar Empire [*]Autonomous regions represtented [/list] [h2] Heavenly Kingdom [/h2] [list] [*]Historical leaders and generals [*]New ideologies for interest groups [*]Unique religion [/list] [h1] Planned features [/h1] [list] [*]Persia Flavor, subject interactions, Baha'i, Great Game [*]More ottoman journal entries and events, follow up on kurdish Journal Entry. [*]Argentina flavor, country name, platine war, federationists vs unitarians [*]Mormon events for the US, fruit obsession leading into banana republics [*]Ezo revolt for Japan
+[*]More Ehtiopia flavor [*]Cleanup of existing features and more journals for other countries per user suggestions [/list] [h1] Localization [/h1] 
+[list]
+[*]The mod only supports English localization at the moment
+[/list] 
