@@ -46,6 +46,7 @@
 		law_protectionism = neutral
 		law_free_trade = disapprove
 	}	
+
 }
 
 ideology_laissez_faire = {
@@ -142,6 +143,15 @@ ideology_stratocratic = {
 		law_wage_subsidies = disapprove
 		law_old_age_pension = disapprove
 	}
+
+	lawgroup_centralization= { #NFM Centralization
+		law_totalitarian = strongly_disapprove
+		law_unitary = neutral
+		law_cooperative_federalism = approve
+		law_dual_federalism = approve
+		law_regionalism = disapprove
+	}
+
 }
 
 ideology_pious = {
@@ -222,10 +232,10 @@ ideology_particularist = {
 
 	lawgroup_centralization= { #NFM Centralization
 		law_totalitarian = strongly_disapprove
-		law_unitary = neutral
+		law_unitary = disapprove
 		law_cooperative_federalism = neutral
-		law_dual_federalism = neutral
-		law_regionalism = approve
+		law_dual_federalism = approve
+		law_regionalism = strongly_approve
 	}
 }
 
@@ -320,14 +330,6 @@ ideology_patriotic = {
 		law_right_of_assembly = neutral
 		law_protected_speech = disapprove
 	}	
-
-	lawgroup_centralization= { #NFM Centralization
-		law_totalitarian = approve
-		law_unitary = neutral
-		law_cooperative_federalism = neutral
-		law_dual_federalism = neutral
-		law_regionalism = disapprove
-	}
 }
 
 ideology_loyalist = {
@@ -339,6 +341,14 @@ ideology_loyalist = {
 		law_graduated_taxation = approve
 		law_land_based_taxation = neutral
 		law_consumption_based_taxation = disapprove
+	}
+
+	lawgroup_centralization= { #NFM Centralization
+		law_totalitarian = strongly_approve
+		law_unitary = approve
+		law_cooperative_federalism = neutral
+		law_dual_federalism = neutral
+		law_regionalism = disapprove
 	}
 }
 
@@ -399,8 +409,8 @@ ideology_liberal = {
 	}
 
 	lawgroup_centralization= { #NFM Centralization
-		#law_totalitarian = strongly_disapprove
-		law_unitary = approve
+		law_totalitarian = strongly_disapprove
+		law_unitary = strongly_approve
 		law_cooperative_federalism = approve
 		law_dual_federalism = neutral
 		law_regionalism = disapprove
@@ -499,6 +509,15 @@ ideology_proletarian = {
 		law_religious_schools = neutral	
 		law_no_schools = disapprove	
 	}
+
+	lawgroup_centralization= { #NFM Centralization
+		law_totalitarian = strongly_approve
+		law_unitary = approve
+		law_cooperative_federalism = neutral
+		law_dual_federalism = neutral
+		law_regionalism = disapprove
+	}
+
 }
 
 ideology_egalitarian = {
@@ -598,6 +617,14 @@ ideology_reactionary = {
 		law_closed_borders = approve
 		law_migration_controls = strongly_approve
 		law_no_migration_controls = disapprove
+	}
+
+	lawgroup_centralization= { #NFM Centralization
+		law_totalitarian = strongly_approve
+		law_unitary = neutral
+		law_cooperative_federalism = neutral
+		law_dual_federalism = neutral
+		law_regionalism = disapprove
 	}
 }
 
