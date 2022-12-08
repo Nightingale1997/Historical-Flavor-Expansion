@@ -35,6 +35,11 @@ Countries can now enact centralization laws, and most have historical starting l
 [*]New Tags: Klein Vrystaat, Stellaland, Xhosa, Swazi, Zoutpansberg, Rozwi, Maravi, Boina, Antankarana 
 [*]New Culture: Voortrekker, Griqua 
 [/list] 
+[h2] USA [/h2] 
+[list] 
+[*]Mormon minority exists is various historical states
+[*]Journal Entry: The State of Deseret
+[/list] 
 [h2] Russia [/h2] 
 [list] 
 [*]Baltic nations appear as governorates at game start. 
@@ -68,8 +73,30 @@ Countries can now enact centralization laws, and most have historical starting l
 [h2] Argentina [/h2]
 [list] 
 [*]Historical Flag 
-[*]New Tags: Entre Ríos, Corrientes [/list] [h2] India [/h2] [list] [*]India formation now allows for unification play, but only for recognized nations that are not the British East India Company. [*]New Culture: Anglo-Indian (Mainly used to involve BIC in the unification play) [/list] [h2] Ottoman Empire [/h2] [list] [*]Added countless kurdish tags as protectorates at start [*]Journal Entry: Tanzimat: Kurdish Autonomy (Reform the tribes into a unified administrative unit) [/list] [h2] Persia [/h2] [list] [*]Begins as Qajar Empire [*]Autonomous regions represtented [/list] [h2] Heavenly Kingdom [/h2] [list] [*]Historical leaders and generals [*]New ideologies for interest groups [*]Unique religion [/list] [h1] Planned features [/h1] [list] [*]Persia Flavor, subject interactions, Baha'i, Great Game [*]More ottoman journal entries and events, follow up on kurdish Journal Entry. [*]Argentina flavor, country name, platine war, federationists vs unitarians [*]Mormon events for the US, fruit obsession leading into banana republics [*]Ezo revolt for Japan
-[*]More Ehtiopia flavor [*]Cleanup of existing features and more journals for other countries per user suggestions [/list] [h1] Localization [/h1] 
+[*]New Tags: Entre Ríos, Corrientes [/list] [h2] India [/h2] [list]
+[*]India formation now allows for unification play, but only for recognized nations that are not the British East India Company.
+[*]New Culture: Anglo-Indian (Mainly used to involve BIC in the unification play) [/list]
+[h2] Ottoman Empire [/h2]
+[list] 
+[*]Added countless kurdish tags as protectorates at start
+[*]Journal Entry: Tanzimat: Kurdish Autonomy (Reform the tribes into a unified administrative unit)
+[/list]
+[h2] Persia [/h2] [list]
+[*]Begins as Qajar Empire [*]Autonomous regions represtented [/list]
+[h2] Heavenly Kingdom [/h2]
+[list]
+[*]Historical leaders and generals
+[*]New ideologies for interest groups
+[*]Unique religion [/list]
+[h1] Planned features [/h1]
+[list]
+[*]Persia Flavor, subject interactions, Baha'i, Great Game
+[*]More ottoman journal entries and events, follow up on kurdish Journal Entry. 
+[*]Argentina flavor, country name, platine war, federationists vs unitarians 
+[*]Mormon events for the US, fruit obsession leading into banana republics 
+[*]Ezo revolt for Japan
+[*]More Ehtiopia flavor 
+[*]Cleanup of existing features and more journals for other countries per user suggestions [/list] [h1] Localization [/h1] 
 [list]
 [*]The mod only supports English localization at the moment
 [/list] 

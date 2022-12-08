@@ -122,6 +122,52 @@
 			type = tributary
 		}
 	}
+	c:CHI = {
+		create_diplomatic_pact = {
+			country = c:SIH
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:YUN
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:XIN
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:MCH
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:NEI
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:QIN
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:GUI
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:ATI
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:MGL
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:TUV
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:KUM
+			type = vassal
+		}
+	}
 	c:PER = {
 		create_diplomatic_pact = {
 			country = c:ARD
