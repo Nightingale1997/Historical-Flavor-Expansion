@@ -200,11 +200,11 @@ ideology_confucian = {
 	}
 
 	lawgroup_centralization= { #NFM Centralization
-	#	law_totalitarian = approve
-		law_unitary = approve
+		law_totalitarian = approve
+		law_unitary = neutral
 		law_cooperative_federalism = neutral
 		law_dual_federalism = disapprove
-		law_regionalism = strongly_disapproveo
+		law_regionalism = strongly_disapprove
 	}
 }
 
